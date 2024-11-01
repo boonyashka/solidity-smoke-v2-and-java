@@ -1,0 +1,43 @@
+2024-09-26 23:51:57,551 Downloading dependencies
+2024-09-26 23:51:57,572 Unpacking archives
+2024-09-26 23:51:57,573 Types info collecting
+2024-09-26 23:51:57,634 Collecting xml files
+2024-09-26 23:51:57,635 Collecting web.xml data
+2024-09-26 23:51:57,637 Collecting ibatis xml data
+2024-09-26 23:51:57,637 Collecting jax-rs data
+2024-09-26 23:51:57,638 Collecting jsf data
+2024-09-26 23:51:57,638 Collecting play routes
+2024-09-26 23:51:57,639 Collecting struts data
+2024-09-26 23:51:57,641 Detecting duplicates in user files
+2024-09-26 23:51:57,641 Decompiling files
+2024-09-26 23:51:57,645 Decompiling class 1/1 : C:\QA\ai-stuff-master\Java\Smoke\jar\xssclass.class
+2024-09-26 23:51:57,786 Creating classloader
+2024-09-26 23:51:57,788 Types info collecting
+2024-09-26 23:51:58,680 Code model initializing
+2024-09-26 23:51:58,689 Spoon: process started COMPILE
+2024-09-26 23:51:58,737 Spoon: step of COMPILE : C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java 1/1
+2024-09-26 23:51:58,737 Spoon: Process ended COMPILE
+2024-09-26 23:51:58,737 Spoon: process started COMMENT
+2024-09-26 23:51:58,738 Spoon: step of COMMENT : C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java 1/1
+2024-09-26 23:51:58,739 Spoon: Process ended COMMENT
+2024-09-26 23:51:58,739 Spoon: process started MODEL
+2024-09-26 23:51:58,744 Spoon: step of MODEL : C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java 1/1
+2024-09-26 23:51:58,746 Spoon: Process ended MODEL
+2024-09-26 23:51:58,747 Spoon: process started IMPORT
+2024-09-26 23:51:58,772 Spoon: step of IMPORT : C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java 1/1
+2024-09-26 23:51:58,772 Spoon: Process ended IMPORT
+2024-09-26 23:51:58,772 Spoon: process started COMMENT_LINKING
+2024-09-26 23:51:58,772 Spoon: step of COMMENT_LINKING : C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java 1/1
+2024-09-26 23:51:58,772 Spoon: Process ended COMMENT_LINKING
+2024-09-26 23:51:58,773 Spoon: process started MODEL
+2024-09-26 23:51:58,773 Spoon: Process ended MODEL
+2024-09-26 23:51:58,773 Spoon: process started IMPORT
+2024-09-26 23:51:58,773 Spoon: Process ended IMPORT
+2024-09-26 23:51:58,773 Spoon: process started COMMENT_LINKING
+2024-09-26 23:51:58,773 Spoon: Process ended COMMENT_LINKING
+2024-09-26 23:51:58,776 Constructing overriding tree
+2024-09-26 23:51:58,811 Code model info collecting
+2024-09-26 23:51:58,860 Precheck result is obtained
+2024-09-26 23:52:00,367 Starting model serialization
+2024-09-26 23:52:00,441 Finished model serialization
+2024-09-26 23:52:00,450 Precheck result has been serialized

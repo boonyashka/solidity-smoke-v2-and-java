@@ -1,0 +1,6 @@
+2024-09-26 23:53:27.753194 ║INFO	║ 171204	║ process file C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar
+2024-09-26 23:53:27.753194 ║INFO	║ 171204	║ process file C:\QA\ai-stuff-master\Java\Smoke\jar\xssclass.class
+2024-09-26 23:53:27.753194 ║INFO	║ 171204	║ process file C:\QA\ai-stuff-master\Java\Smoke\jar
+2024-09-26 23:53:27.754406 ║INFO	║ 171204	║ process file C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java
+2024-09-26 23:53:37.649696 ║INFO	║ 171204	║ Finalize
+2024-09-26 23:53:37.651198 ║INFO	║ 171204	║ Finalize done

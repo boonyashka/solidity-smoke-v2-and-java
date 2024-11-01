@@ -1,0 +1,1428 @@
+2024-09-26 23:51:55,813  |  INFO  |  [main.kt:32]  |  Log Path: C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\DependencyCheck
+2024-09-26 23:51:55,815  |  INFO  |  [main.kt:33]  |  Connection Type: pipe pipe-f9b67660-0328-4fb0-b19c-c1f5843500af-dependencycheck
+2024-09-26 23:51:55,906  |  INFO  |  [Executor.kt:68]  |  Running the kernel message loop...
+2024-09-26 23:51:56,060  |  INFO  |  [Messenger.kt:54]  |  Received message Initialize
+2024-09-26 23:51:56,066  |  INFO  |  [Executor.kt:276]  |  ?{"Parameters":{"IsDependencyCheckAutoUpdateEnabled":true,"DependencyCheckAutoUpdateBaseUrl":"http://localhost:5008/api/DataFeeds/%d.json.gz","DependencyCheckAutoUpdateModifiedUrl":"http://localhost:5008/api/DataFeeds/modified.json.gz","DependencyCheckAutoUpdateRetireJsUrl":"http://localhost:5008/api/DataFeeds/jsrepository.json","DependencyCheckDataBaseFolder":"C:\\Users\\knedyakina\\AppData\\Local\\Application Inspector Analyzer\\DependencyCheck","AdditionalDependenciesToScanDirectories":["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\downloadedJars"],"ScanType":"Full","LogsDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Logs\\Infrastructure\\2024-09-26-23-51-37\\DependencyCheck","TempDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\DependencyCheck","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\workspace.xml"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./test_web_jar.jar","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xssclass.class","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"}],"AfterCrash":false,"IsIncrementalScan":false}
+2024-09-26 23:51:56,107  |  INFO  |  [Executor.kt:102]  |  Configured for: C:\QA\ai-stuff-master\Java\Smoke\jar}
+2024-09-26 23:51:56,108  |  INFO  |  [Messenger.kt:74]  |  Sent message InitializeDone
+2024-09-26 23:51:56,573  |  INFO  |  [Messenger.kt:54]  |  Received message Precheck
+2024-09-26 23:51:56,579  |  INFO  |  [Executor.kt:133]  |  Updating the database...
+2024-09-26 23:51:56,579  |  INFO  |  [DependencyCheckerWrapper.kt:144]  |  Updating DB
+2024-09-26 23:51:56,580  |  INFO  |  [DependencyCheckerWrapper.kt:260]  |  Updating settings with DB dir C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck, baseUrl http://localhost:5008/api/DataFeeds/%d.json.gz, modifiedUrl: http://localhost:5008/api/DataFeeds/modified.json.gz
+2024-09-26 23:51:56,715  |  DEBUG  |  [Settings.java:970]  |  Properties loaded:
+
+analyzer.cocoapods.enabled='true'
+cve.url.base='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-%d.json.gz'
+proxy.disableSchemas='true'
+cve.url.modified.validfordays='7'
+analyzer.dependencybundling.enabled='true'
+cve.url.original='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz'
+odc.ecosystem.maxquerylimit.native='1000'
+data.connection_string='jdbc:h2:file:%s;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+archive.scan.depth='3'
+analyzer.cmake.enabled='true'
+analyzer.pipfile.enabled='true'
+cve.download.waittime='4000'
+odc.application.name='Dependency-Check Core'
+analyzer.retirejs.repo.validforhours='24'
+analyzer.node.package.enabled='true'
+analyzer.central.url='https://search.maven.org/solrsearch/select'
+analyzer.pe.enabled='true'
+analyzer.poetry.enabled='true'
+downloader.quick.query.timestamp='true'
+analyzer.archive.enabled='true'
+analyzer.retirejs.repo.js.url='https://raw.githubusercontent.com/Retirejs/retire.js/master/repository/jsrepository.json'
+analyzer.swift.package.resolved.enabled='true'
+cpe.url='https://static.nvd.nist.gov/feeds/xml/cpe/dictionary/official-cpe-dictionary_v2.3.xml.gz'
+analyzer.ossindex.url='https://ossindex.sonatype.org'
+analyzer.nvdcve.enabled='true'
+analyzer.jar.enabled='true'
+analyzer.cpe.enabled='true'
+analyzer.knownexploited.enabled='true'
+analyzer.cpanfile.enabled='true'
+data.writelock.shutdownhook='org.owasp.dependencycheck.utils.WriteLockCleanupHook'
+analyzer.central.query='%s?q=1:%s&wt=xml'
+analyzer.bundle.audit.enabled='true'
+analyzer.node.audit.use.cache='true'
+odc.settings.mask='.*password.*,.*token.*'
+analyzer.dependencymerging.enabled='true'
+cpe.validfordays='30'
+analyzer.pnpm.audit.enabled='true'
+junit.fail.on.cvss='0'
+central.content.url='https://search.maven.org/remotecontent?filepath='
+analyzer.node.audit.url='https://registry.npmjs.org/-/npm/v1/security/audits'
+odc.application.version='8.4.0'
+analyzer.msbuildproject.enabled='true'
+data.user='dcuser'
+engine.version.url='https://jeremylong.github.io/DependencyCheck/current.txt'
+odc.autoupdate='true'
+analyzer.autoconf.enabled='true'
+analyzer.cpesuppression.enabled='true'
+analyzer.retirejs.enabled='true'
+cve.check.validforhours='4'
+hosted.suppressions.validforhours='2'
+analyzer.versionfilter.enabled='true'
+analyzer.assembly.enabled='true'
+cve.cpe.startswith.filter='cpe:2.3:a:'
+analyzer.golang.dep.enabled='true'
+odc.analysis.timeout='180'
+analyzer.nexus.url='https://repository.sonatype.org/service/local/'
+cve.url.base.defaultFilename='nvdcve-1.1-%d.json.gz'
+analyzer.hint.enabled='true'
+analyzer.dart.enabled='true'
+hosted.suppressions.enabled='true'
+analyzer.retired.enabled='false'
+database.batchinsert.enabled='true'
+analyzer.openssl.enabled='true'
+analyzer.swift.package.manager.enabled='true'
+analyzer.nuspec.enabled='true'
+analyzer.central.retry.count='7'
+analyzer.central.use.cache='true'
+updater.nvdcve.enabled='true'
+analyzer.mix.audit.enabled='true'
+max.download.threads='1'
+analyzer.central.enabled='true'
+analyzer.python.distribution.enabled='true'
+analyzer.nexus.enabled='false'
+cve.url.modified.defaultFilename='nvdcve-1.1-modified.json.gz'
+odc.reports.pretty.print='false'
+analyzer.artifactory.enabled='false'
+analyzer.retirejs.filternonvulnerable='false'
+analyzer.ossindex.enabled='true'
+analyzer.central.parallel.analysis='false'
+analyzer.nexus.proxy='true'
+cve.startyear='2002'
+analyzer.maveninstall.enabled='true'
+odc.ecosystem.maxquerylimit.default='100'
+nvd.newyear.grace.period='10'
+downloader.tls.protocols='TLSv1.1,TLSv1.2,TLSv1.3'
+data.file_name='odc.mv.db'
+analyzer.ruby.gemspec.enabled='true'
+analyzer.composer.lock.enabled='true'
+data.version='5.4'
+kev.check.validforhours='24'
+analyzer.vulnerabilitysuppression.enabled='true'
+analyzer.libman.enabled='true'
+data.directory='[JAR]/data/7.0'
+analyzer.experimental.enabled='false'
+analyzer.golang.mod.enabled='true'
+analyzer.filename.enabled='true'
+analyzer.ossindex.use.cache='true'
+analyzer.python.package.enabled='true'
+updater.versioncheck.enabled='true'
+ecosystem.skip.cpeanalyzer='npm'
+kev.url='https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json'
+analyzer.pip.enabled='true'
+analyzer.falsepositive.enabled='true'
+analyzer.node.audit.enabled='true'
+analyzer.yarn.audit.enabled='true'
+analyzer.npm.cpe.enabled='true'
+database.batchinsert.maxsize='1000'
+data.driver_name='org.h2.Driver'
+hosted.suppressions.url='https://jeremylong.github.io/DependencyCheck/suppressions/publishedSuppressions.xml'
+data.password='********'
+analyzer.nugetconf.enabled='true'
+cve.url.modified='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz'
+
+2024-09-26 23:51:56,715  |  DEBUG  |  [Settings.java:983]  |  Setting: data.directory='C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:51:56,717  |  DEBUG  |  [Settings.java:983]  |  Setting: temp.directory='C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck'
+2024-09-26 23:51:56,717  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.central.enabled='true'
+2024-09-26 23:51:56,737  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'go version', some results may not be available
+2024-09-26 23:51:56,738  |  WARN  |  [AnalyzersAvailabilityChecker.kt:22]  |  can't execute 'go version' command, golang analyzer is disabled
+2024-09-26 23:51:56,739  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-09-26 23:51:56,739  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-09-26 23:51:56,740  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-09-26 23:51:56,740  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
+2024-09-26 23:51:56,845  |  WARN  |  [AnalyzersAvailabilityChecker.kt:37]  |  Dotnet analyzer is disabled
+2024-09-26 23:51:58,576  |  INFO  |  [AnalyzersAvailabilityChecker.kt:56]  |  Maven Central (https://search.maven.org/) is reachable: true
+2024-09-26 23:51:58,577  |  INFO  |  [AnalyzersAvailabilityChecker.kt:61]  |  Npm registry (https://registry.npmjs.org/) is reachable: true
+2024-09-26 23:51:58,577  |  INFO  |  [AnalyzersAvailabilityChecker.kt:66]  |  CISA feeds (https://www.cisa.gov/) is reachable: true
+2024-09-26 23:51:58,577  |  INFO  |  [AnalyzersAvailabilityChecker.kt:71]  |  OSS Index (https://ossindex.sonatype.org/) is reachable: true
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: cve.url.base='http://localhost:5008/api/DataFeeds/%d.json.gz'
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: cve.url.modified='http://localhost:5008/api/DataFeeds/modified.json.gz'
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.retirejs.repo.js.url='http://localhost:5008/api/DataFeeds/jsrepository.json'
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.retirejs.enabled='true'
+2024-09-26 23:51:58,578  |  INFO  |  [DependencyCheckerWrapper.kt:277]  |  RetireJS Enabled for http://localhost:5008/api/DataFeeds/jsrepository.json
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.nexus.enabled='false'
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.ossindex.enabled='true'
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.experimental.enabled='true'
+2024-09-26 23:51:58,578  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.central.enabled='true'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.golang.dep.enabled='false'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.golang.mod.enabled='false'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.golang.path='false'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.bundle.audit.enabled='false'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.assembly.enabled='false'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.yarn.audit.enabled='false'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.node.audit.enabled='true'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.knownexploited.enabled='true'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:1082]  |  Setting: max.download.threads='4'
+2024-09-26 23:51:58,579  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.pe.enabled='false'
+2024-09-26 23:51:58,579  |  INFO  |  [DependencyCheckerWrapper.kt:169]  |  Checking for old DB version
+2024-09-26 23:51:58,580  |  INFO  |  [DependencyCheckerWrapper.kt:174]  |  Old DB version detected
+2024-09-26 23:51:58,580  |  INFO  |  [DependencyCheckerWrapper.kt:195]  |  Deleting: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc.mv.db
+2024-09-26 23:51:58,580  |  INFO  |  [DependencyCheckerWrapper.kt:195]  |  Deleting: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\jsrepository.json
+2024-09-26 23:51:58,580  |  INFO  |  [DependencyCheckerWrapper.kt:195]  |  Deleting: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-09-26 23:51:58,580  |  INFO  |  [DependencyCheckerWrapper.kt:179]  |  Creating C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\db_update.lock
+2024-09-26 23:51:58,582  |  DEBUG  |  [Settings.java:983]  |  Setting: odc.autoupdate='true'
+2024-09-26 23:51:58,604  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Archive Analyzer
+2024-09-26 23:51:58,605  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer File Name Analyzer
+2024-09-26 23:51:58,608  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer PE Analyzer
+2024-09-26 23:51:58,611  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Jar Analyzer
+2024-09-26 23:51:58,615  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Hint Analyzer
+2024-09-26 23:51:58,622  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer CPE Analyzer
+2024-09-26 23:51:58,622  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer NPM CPE Analyzer
+2024-09-26 23:51:58,623  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer False Positive Analyzer
+2024-09-26 23:51:58,625  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Dependency Bundling Analyzer
+2024-09-26 23:51:58,626  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Dependency Merging Analyzer
+2024-09-26 23:51:58,627  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer NVD CVE Analyzer
+2024-09-26 23:51:58,630  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Vulnerability Suppression Analyzer
+2024-09-26 23:51:58,633  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Central Analyzer
+2024-09-26 23:51:58,635  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Nexus Analyzer
+2024-09-26 23:51:58,635  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Artifactory Analyzer
+2024-09-26 23:51:58,637  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Nuspec Analyzer
+2024-09-26 23:51:58,639  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Nugetconf Analyzer
+2024-09-26 23:51:58,641  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer MSBuild Project Analyzer
+2024-09-26 23:51:58,642  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Assembly Analyzer
+2024-09-26 23:51:58,643  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Python Distribution Analyzer
+2024-09-26 23:51:58,645  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Python Package Analyzer
+2024-09-26 23:51:58,646  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer pip Analyzer
+2024-09-26 23:51:58,648  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pipfile Analyzer
+2024-09-26 23:51:58,650  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pipfile.lock Analyzer
+2024-09-26 23:51:58,651  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Poetry Analyzer
+2024-09-26 23:51:58,652  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Autoconf Analyzer
+2024-09-26 23:51:58,654  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer OpenSSL Source Analyzer
+2024-09-26 23:51:58,656  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer CMake Analyzer
+2024-09-26 23:51:58,659  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Node.js Package Analyzer
+2024-09-26 23:51:58,661  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Node Audit Analyzer
+2024-09-26 23:51:58,663  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Yarn Audit Analyzer
+2024-09-26 23:51:58,666  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pnpm Audit Analyzer
+2024-09-26 23:51:58,668  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Golang Mod Analyzer
+2024-09-26 23:51:58,669  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Golang Dep Analyzer
+2024-09-26 23:51:58,671  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer RetireJS Analyzer
+2024-09-26 23:51:58,672  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Ruby Gemspec Analyzer
+2024-09-26 23:51:58,673  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Ruby Bundler Analyzer
+2024-09-26 23:51:58,675  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Ruby Bundle Audit Analyzer
+2024-09-26 23:51:58,677  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Elixir Mix Audit Analyzer
+2024-09-26 23:51:58,679  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Composer.lock analyzer
+2024-09-26 23:51:58,680  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer CocoaPods Package Analyzer
+2024-09-26 23:51:58,681  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer SWIFT Package Manager Analyzer
+2024-09-26 23:51:58,682  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer SWIFT Package Resolved Analyzer
+2024-09-26 23:51:58,682  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Version Filter Analyzer
+2024-09-26 23:51:58,684  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Sonatype OSS Index Analyzer
+2024-09-26 23:51:58,685  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Perl cpanfile Analyzer
+2024-09-26 23:51:58,776  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pinned Maven install Analyzer
+2024-09-26 23:51:58,777  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Known Exploited Vulnerability Analyzer
+2024-09-26 23:51:58,784  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Dart Package Analyzer
+2024-09-26 23:51:58,784  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Unused Suppression Rule Analyzer
+2024-09-26 23:51:58,786  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Libman Analyzer
+2024-09-26 23:51:58,789  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:51:58,819  |  INFO  |  [CompositeCacheManager.java:210]  |  Instance is null, returning unconfigured instance
+2024-09-26 23:51:59,125  |  DEBUG  |  [ElementEventQueue.java:65]  |  Constructed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@3595c336
+2024-09-26 23:51:59,152  |  DEBUG  |  [ThreadPoolManager.java:292]  |  Initializing ThreadPoolManager
+2024-09-26 23:51:59,153  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.default PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-09-26 23:51:59,154  |  DEBUG  |  [CompositeCacheManager.java:459]  |  ThreadPoolManager = org.apache.commons.jcs.utils.threadpool.ThreadPoolManager@16e7e787
+2024-09-26 23:51:59,158  |  INFO  |  [CompositeCacheManager.java:471]  |  Setting default auxiliaries to ODC
+2024-09-26 23:51:59,158  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.default.cacheattributes'
+2024-09-26 23:51:59,190  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxMemoryIdleTimeSeconds] to [3600].
+2024-09-26 23:51:59,191  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:51:59,191  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [shrinkerIntervalSeconds] to [60].
+2024-09-26 23:51:59,191  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:51:59,191  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [memoryCacheName] to [org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache].
+2024-09-26 23:51:59,191  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [useMemoryShrinker] to [false].
+2024-09-26 23:51:59,191  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.default.cacheattributes".
+2024-09-26 23:51:59,192  |  INFO  |  [CompositeCacheManager.java:477]  |  setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:51:59,192  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.default.elementattributes'
+2024-09-26 23:51:59,199  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isEternal] to [false].
+2024-09-26 23:51:59,201  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:51:59,201  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:51:59,201  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:51:59,201  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [idleTime] to [1800].
+2024-09-26 23:51:59,201  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [86400].
+2024-09-26 23:51:59,202  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.default.elementattributes".
+2024-09-26 23:51:59,202  |  INFO  |  [CompositeCacheManager.java:483]  |  setting defaultElementAttributes to [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1727383919192, LastAccessTime = 1727383919192, getTimeToLiveSeconds() = 86399, createTime = 1727383919192 ]
+2024-09-26 23:51:59,203  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.region.CENTRAL.elementattributes'
+2024-09-26 23:51:59,203  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:51:59,203  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [2592000].
+2024-09-26 23:51:59,203  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:51:59,203  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:51:59,203  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.region.CENTRAL.elementattributes".
+2024-09-26 23:51:59,203  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.region.CENTRAL.cacheattributes'
+2024-09-26 23:51:59,203  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:51:59,204  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:51:59,204  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.region.CENTRAL.cacheattributes".
+2024-09-26 23:51:59,218  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for CENTRAL
+2024-09-26 23:51:59,219  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [CENTRAL] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:51:59,219  |  DEBUG  |  [CompositeCacheConfigurator.java:232]  |  Parsing region name 'CENTRAL', value 'ODC'
+2024-09-26 23:51:59,219  |  DEBUG  |  [CompositeCacheConfigurator.java:259]  |  Parsing auxiliary named "ODC".
+2024-09-26 23:51:59,219  |  DEBUG  |  [CompositeCacheConfigurator.java:418]  |  parseAuxiliary ODC
+2024-09-26 23:51:59,223  |  DEBUG  |  [CompositeCacheConfigurator.java:472]  |  Parsing options for 'jcs.auxiliary.ODC.attributes'
+2024-09-26 23:51:59,227  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskPath] to [C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache].
+2024-09-26 23:51:59,228  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [optimizeAtRemoveCount] to [300000].
+2024-09-26 23:51:59,228  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [eventQueueType] to [POOLED].
+2024-09-26 23:51:59,228  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [shutdownSpoolTimeLimit] to [60].
+2024-09-26 23:51:59,228  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxPurgatorySize] to [10000000].
+2024-09-26 23:51:59,229  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxKeySize] to [1000000].
+2024-09-26 23:51:59,229  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [eventQueuePoolName] to [disk_cache_event_queue].
+2024-09-26 23:51:59,229  |  DEBUG  |  [CompositeCacheConfigurator.java:480]  |  End of parsing for 'jcs.auxiliary.ODC.attributes'
+2024-09-26 23:51:59,231  |  INFO  |  [OptionConverter.java:170]  |  Could not find value for key jcs.auxiliary.ODC.cacheeventlogger
+2024-09-26 23:51:59,232  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-09-26 23:51:59,233  |  INFO  |  [OptionConverter.java:170]  |  Could not find value for key jcs.auxiliary.ODC.serializer
+2024-09-26 23:51:59,237  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@5b0c5b5c] for auxiliary [jcs.auxiliary.ODC]
+2024-09-26 23:51:59,237  |  DEBUG  |  [IndexedDiskCacheFactory.java:57]  |  Creating DiskCache for attributes = IndexedDiskCacheAttributes 
+ diskPath = C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+ maxPurgatorySize   = 10000000
+ maxKeySize  = 1000000
+ optimizeAtRemoveCount  = 300000
+ shutdownSpoolTimeLimit  = 60
+ optimizeOnShutdown  = true
+ clearDiskOnStartup  = false
+2024-09-26 23:51:59,244  |  DEBUG  |  [CacheEventQueueFactory.java:72]  |  threadPoolName = [disk_cache_event_queue] poolType = POOLED 
+2024-09-26 23:51:59,251  |  DEBUG  |  [AbstractCacheEventQueue.java:170]  |  Constructed: CacheEventQueue [listenerId=807033484, cacheName=CENTRAL]
+2024-09-26 23:51:59,251  |  DEBUG  |  [ThreadPoolManager.java:244]  |  Creating pool for name [disk_cache_event_queue]
+2024-09-26 23:51:59,251  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.disk_cache_event_queue PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-09-26 23:51:59,251  |  DEBUG  |  [ThreadPoolManager.java:149]  |  Creating a non bounded Linked Queue to use for the pool
+2024-09-26 23:51:59,258  |  DEBUG  |  [ThreadPoolManager.java:257]  |  PoolName = [disk_cache_event_queue]
+2024-09-26 23:51:59,260  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [CENTRAL] Cache file root directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-09-26 23:51:59,269  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [CENTRAL] Set maxKeySize to: '1000000'
+2024-09-26 23:51:59,269  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [CENTRAL] Indexed Disk Cache is alive.
+2024-09-26 23:51:59,270  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.region.POM.elementattributes'
+2024-09-26 23:51:59,270  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [7776000].
+2024-09-26 23:51:59,270  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:51:59,270  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:51:59,270  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:51:59,270  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.region.POM.elementattributes".
+2024-09-26 23:51:59,270  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.region.POM.cacheattributes'
+2024-09-26 23:51:59,271  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:51:59,271  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:51:59,271  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.region.POM.cacheattributes".
+2024-09-26 23:51:59,271  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for POM
+2024-09-26 23:51:59,271  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [POM] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:51:59,271  |  DEBUG  |  [CompositeCacheConfigurator.java:232]  |  Parsing region name 'POM', value 'ODC'
+2024-09-26 23:51:59,271  |  DEBUG  |  [CompositeCacheConfigurator.java:259]  |  Parsing auxiliary named "ODC".
+2024-09-26 23:51:59,271  |  DEBUG  |  [CompositeCacheConfigurator.java:418]  |  parseAuxiliary ODC
+2024-09-26 23:51:59,271  |  DEBUG  |  [CompositeCacheConfigurator.java:472]  |  Parsing options for 'jcs.auxiliary.ODC.attributes'
+2024-09-26 23:51:59,271  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskPath] to [C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache].
+2024-09-26 23:51:59,272  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [optimizeAtRemoveCount] to [300000].
+2024-09-26 23:51:59,272  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [eventQueueType] to [POOLED].
+2024-09-26 23:51:59,273  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [shutdownSpoolTimeLimit] to [60].
+2024-09-26 23:51:59,273  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxPurgatorySize] to [10000000].
+2024-09-26 23:51:59,273  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxKeySize] to [1000000].
+2024-09-26 23:51:59,273  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [eventQueuePoolName] to [disk_cache_event_queue].
+2024-09-26 23:51:59,273  |  DEBUG  |  [CompositeCacheConfigurator.java:480]  |  End of parsing for 'jcs.auxiliary.ODC.attributes'
+2024-09-26 23:51:59,273  |  INFO  |  [OptionConverter.java:170]  |  Could not find value for key jcs.auxiliary.ODC.cacheeventlogger
+2024-09-26 23:51:59,273  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-09-26 23:51:59,273  |  INFO  |  [OptionConverter.java:170]  |  Could not find value for key jcs.auxiliary.ODC.serializer
+2024-09-26 23:51:59,273  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@70d7fa62] for auxiliary [jcs.auxiliary.ODC]
+2024-09-26 23:51:59,273  |  DEBUG  |  [IndexedDiskCacheFactory.java:57]  |  Creating DiskCache for attributes = IndexedDiskCacheAttributes 
+ diskPath = C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+ maxPurgatorySize   = 10000000
+ maxKeySize  = 1000000
+ optimizeAtRemoveCount  = 300000
+ shutdownSpoolTimeLimit  = 60
+ optimizeOnShutdown  = true
+ clearDiskOnStartup  = false
+2024-09-26 23:51:59,273  |  DEBUG  |  [CacheEventQueueFactory.java:72]  |  threadPoolName = [disk_cache_event_queue] poolType = POOLED 
+2024-09-26 23:51:59,274  |  DEBUG  |  [AbstractCacheEventQueue.java:170]  |  Constructed: CacheEventQueue [listenerId=807033484, cacheName=POM]
+2024-09-26 23:51:59,274  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [POM] Cache file root directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-09-26 23:51:59,277  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [POM] Set maxKeySize to: '1000000'
+2024-09-26 23:51:59,277  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [POM] Indexed Disk Cache is alive.
+2024-09-26 23:51:59,277  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.region.NODEAUDIT.elementattributes'
+2024-09-26 23:51:59,277  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:51:59,277  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:51:59,277  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:51:59,277  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [86400].
+2024-09-26 23:51:59,277  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.region.NODEAUDIT.elementattributes".
+2024-09-26 23:51:59,278  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.region.NODEAUDIT.cacheattributes'
+2024-09-26 23:51:59,278  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:51:59,278  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:51:59,278  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.region.NODEAUDIT.cacheattributes".
+2024-09-26 23:51:59,278  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for NODEAUDIT
+2024-09-26 23:51:59,278  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [NODEAUDIT] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:51:59,278  |  DEBUG  |  [CompositeCacheConfigurator.java:232]  |  Parsing region name 'NODEAUDIT', value 'ODC'
+2024-09-26 23:51:59,278  |  DEBUG  |  [CompositeCacheConfigurator.java:259]  |  Parsing auxiliary named "ODC".
+2024-09-26 23:51:59,278  |  DEBUG  |  [CompositeCacheConfigurator.java:418]  |  parseAuxiliary ODC
+2024-09-26 23:51:59,279  |  DEBUG  |  [CompositeCacheConfigurator.java:472]  |  Parsing options for 'jcs.auxiliary.ODC.attributes'
+2024-09-26 23:51:59,279  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskPath] to [C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache].
+2024-09-26 23:51:59,280  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [optimizeAtRemoveCount] to [300000].
+2024-09-26 23:51:59,280  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [eventQueueType] to [POOLED].
+2024-09-26 23:51:59,281  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [shutdownSpoolTimeLimit] to [60].
+2024-09-26 23:51:59,281  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxPurgatorySize] to [10000000].
+2024-09-26 23:51:59,281  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxKeySize] to [1000000].
+2024-09-26 23:51:59,281  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [eventQueuePoolName] to [disk_cache_event_queue].
+2024-09-26 23:51:59,281  |  DEBUG  |  [CompositeCacheConfigurator.java:480]  |  End of parsing for 'jcs.auxiliary.ODC.attributes'
+2024-09-26 23:51:59,281  |  INFO  |  [OptionConverter.java:170]  |  Could not find value for key jcs.auxiliary.ODC.cacheeventlogger
+2024-09-26 23:51:59,281  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-09-26 23:51:59,281  |  INFO  |  [OptionConverter.java:170]  |  Could not find value for key jcs.auxiliary.ODC.serializer
+2024-09-26 23:51:59,281  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@3601de44] for auxiliary [jcs.auxiliary.ODC]
+2024-09-26 23:51:59,281  |  DEBUG  |  [IndexedDiskCacheFactory.java:57]  |  Creating DiskCache for attributes = IndexedDiskCacheAttributes 
+ diskPath = C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+ maxPurgatorySize   = 10000000
+ maxKeySize  = 1000000
+ optimizeAtRemoveCount  = 300000
+ shutdownSpoolTimeLimit  = 60
+ optimizeOnShutdown  = true
+ clearDiskOnStartup  = false
+2024-09-26 23:51:59,281  |  DEBUG  |  [CacheEventQueueFactory.java:72]  |  threadPoolName = [disk_cache_event_queue] poolType = POOLED 
+2024-09-26 23:51:59,281  |  DEBUG  |  [AbstractCacheEventQueue.java:170]  |  Constructed: CacheEventQueue [listenerId=807033484, cacheName=NODEAUDIT]
+2024-09-26 23:51:59,282  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [NODEAUDIT] Cache file root directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-09-26 23:51:59,285  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [NODEAUDIT] Set maxKeySize to: '1000000'
+2024-09-26 23:51:59,286  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [NODEAUDIT] Indexed Disk Cache is alive.
+2024-09-26 23:51:59,286  |  INFO  |  [CompositeCacheConfigurator.java:144]  |  Parsed regions [CENTRAL, POM, NODEAUDIT]
+2024-09-26 23:51:59,286  |  INFO  |  [CompositeCacheManager.java:495]  |  Finished configuration in 132 ms.
+2024-09-26 23:51:59,286  |  DEBUG  |  [CompositeCacheManager.java:591]  |  attr = [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1727383919286, LastAccessTime = 1727383919192, getTimeToLiveSeconds() = 86400, createTime = 1727383919286 ]
+2024-09-26 23:51:59,291  |  INFO  |  [DependencyCheckerWrapper.kt:155]  |  Starting actual DB update
+2024-09-26 23:51:59,291  |  INFO  |  [FeedsUpdatingProgressTracker.kt:25]  |  process tracker was started
+2024-09-26 23:51:59,294  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:51:59,295  |  DEBUG  |  [Settings.java:1441]  |  Data directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck
+2024-09-26 23:51:59,297  |  DEBUG  |  [Settings.java:1457]  |  Connection String: 'jdbc:h2:file:C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2024-09-26 23:51:59,298  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:51:59,337  |  DEBUG  |  [WriteLock.java:168]  |  Lock file created (Thread-9) fbeaad8b1cea4406ec49a73e796779c0 @ 2024-09-26 23:51:59.335
+2024-09-26 23:51:59,353  |  DEBUG  |  [DatabaseManager.java:143]  |  Loading driver 'org.h2.Driver'
+2024-09-26 23:51:59,359  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:51:59,360  |  DEBUG  |  [Settings.java:1441]  |  Data directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck
+2024-09-26 23:51:59,361  |  DEBUG  |  [Settings.java:1457]  |  Connection String: 'jdbc:h2:file:C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2024-09-26 23:51:59,361  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:51:59,361  |  DEBUG  |  [DatabaseManager.java:172]  |  Need to create DB Structure: true
+2024-09-26 23:51:59,362  |  DEBUG  |  [DatabaseManager.java:178]  |  Loading database connection
+2024-09-26 23:51:59,362  |  DEBUG  |  [DatabaseManager.java:179]  |  Connection String: jdbc:h2:file:C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;
+2024-09-26 23:51:59,362  |  DEBUG  |  [DatabaseManager.java:180]  |  Database User: dcuser
+2024-09-26 23:51:59,906  |  DEBUG  |  [DatabaseManager.java:241]  |  Database product: h2
+2024-09-26 23:51:59,907  |  DEBUG  |  [DatabaseManager.java:368]  |  Creating database structure
+2024-09-26 23:52:00,272  |  DEBUG  |  [DatabaseManager.java:502]  |  DC Schema: 5.4
+2024-09-26 23:52:00,294  |  DEBUG  |  [DatabaseManager.java:503]  |  DB Schema: 5.4
+2024-09-26 23:52:00,494  |  INFO  |  [Engine.java:893]  |  Checking for updates
+2024-09-26 23:52:00,502  |  DEBUG  |  [NvdCveUpdater.java:439]  |  starting getUpdatesNeeded() ...
+2024-09-26 23:52:00,504  |  INFO  |  [FeedsUpdatingProgressTracker.kt:32]  |  database was initialized
+2024-09-26 23:52:00,510  |  DEBUG  |  [FileUtils.java:121]  |  Temporary directory is `C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctempf8410599-6697-4ec1-a2a6-f813220f2f25`
+2024-09-26 23:52:00,510  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:00,515  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/modified.meta
+2024-09-26 23:52:00,553  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:00,573  |  DEBUG  |  [NvdCveUpdater.java:196]  |  #download   threads: 4
+2024-09-26 23:52:00,573  |  DEBUG  |  [NvdCveUpdater.java:197]  |  #processing threads: 8
+2024-09-26 23:52:00,574  |  INFO  |  [NvdCveUpdater.java:265]  |  NVD CVE requires several updates; this could take a couple of minutes.
+2024-09-26 23:52:00,640  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:35]  |  targetUpdateTimes is {2002=1726210977, 2003=1724396519, 2004=1724828580, 2005=1723100550, 2006=1723100545, 2007=1727334147, 2008=1723100533, 2009=1726556575, 2010=1727334142, 2011=1723618968, 2012=1726470021, 2013=1726815761, 2014=1727334135, 2015=1727334128, 2016=1726556567, 2017=1727247710, 2018=1727334118, 2019=1726815727, 2020=1727334101, 2021=1727334078, 2022=1727334054, 2023=1727334030, 2024=1727334009}
+2024-09-26 23:52:00,669  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:00,669  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {}
+2024-09-26 23:52:00,669  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 0%
+2024-09-26 23:52:00,675  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:00,687  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:00,690  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:00,693  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:00,727  |  INFO  |  [Messenger.kt:54]  |  Received message ExpandNode
+2024-09-26 23:52:00,729  |  INFO  |  [Executor.kt:281]  |  ?{"NodePath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class","NewNodeType":5,"NodesAdded":[{"NodeType":6,"IncludeInScan":true,"NodePath":"./xssclass.class/xssclass.java","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java"}]}
+2024-09-26 23:52:04,674  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2002
+2024-09-26 23:52:04,675  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2002.json.gz
+2024-09-26 23:52:04,690  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2003
+2024-09-26 23:52:04,691  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2003.json.gz
+2024-09-26 23:52:04,694  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2002  (20 ms)
+2024-09-26 23:52:04,694  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,696  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2003  (6 ms)
+2024-09-26 23:52:04,696  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,704  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2002
+2024-09-26 23:52:04,704  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,704  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2003
+2024-09-26 23:52:04,704  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,705  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2004
+2024-09-26 23:52:04,705  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2005
+2024-09-26 23:52:04,706  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2004.json.gz
+2024-09-26 23:52:04,706  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2005.json.gz
+2024-09-26 23:52:04,706  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2002_7289295460773465974.json.gz
+2024-09-26 23:52:04,706  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2003_605313040016034407.json.gz
+2024-09-26 23:52:04,711  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2004  (6 ms)
+2024-09-26 23:52:04,712  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,713  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2005  (7 ms)
+2024-09-26 23:52:04,713  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,724  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,724  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2004
+2024-09-26 23:52:04,724  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2004_9784944908393755575.json.gz
+2024-09-26 23:52:04,724  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2005
+2024-09-26 23:52:04,724  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:04,724  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2005_10468255681467507319.json.gz
+2024-09-26 23:52:08,488  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2003  (3784 ms)
+2024-09-26 23:52:08,508  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800}
+2024-09-26 23:52:08,508  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 5%
+2024-09-26 23:52:08,511  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:08,720  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2007
+2024-09-26 23:52:08,720  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2006
+2024-09-26 23:52:08,721  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2007.json.gz
+2024-09-26 23:52:08,721  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2006.json.gz
+2024-09-26 23:52:08,735  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2008
+2024-09-26 23:52:08,736  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2009
+2024-09-26 23:52:08,738  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2008.json.gz
+2024-09-26 23:52:08,738  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2009.json.gz
+2024-09-26 23:52:08,746  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2006  (26 ms)
+2024-09-26 23:52:08,746  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,750  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2007  (30 ms)
+2024-09-26 23:52:08,751  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,770  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2009  (33 ms)
+2024-09-26 23:52:08,770  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,777  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,780  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,780  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2008  (45 ms)
+2024-09-26 23:52:08,782  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,782  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2007
+2024-09-26 23:52:08,783  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2007_13450511917061871014.json.gz
+2024-09-26 23:52:08,781  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,805  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:08,819  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2006
+2024-09-26 23:52:08,820  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2006_5381954913638265203.json.gz
+2024-09-26 23:52:08,886  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2008
+2024-09-26 23:52:08,887  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2008_11156213859119724798.json.gz
+2024-09-26 23:52:08,886  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2009
+2024-09-26 23:52:08,887  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2009_2493728547539499144.json.gz
+2024-09-26 23:52:12,794  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2010
+2024-09-26 23:52:12,795  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2010.json.gz
+2024-09-26 23:52:12,797  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2012
+2024-09-26 23:52:12,799  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2012.json.gz
+2024-09-26 23:52:12,800  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2011
+2024-09-26 23:52:12,801  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2011.json.gz
+2024-09-26 23:52:12,827  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2011  (27 ms)
+2024-09-26 23:52:12,827  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2010  (33 ms)
+2024-09-26 23:52:12,827  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:12,827  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:12,827  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2013
+2024-09-26 23:52:12,828  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2013.json.gz
+2024-09-26 23:52:12,836  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:12,840  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2011
+2024-09-26 23:52:12,841  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2011_10362073468376074259.json.gz
+2024-09-26 23:52:12,842  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2012  (43 ms)
+2024-09-26 23:52:12,843  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:12,851  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:12,853  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2013  (26 ms)
+2024-09-26 23:52:12,854  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:12,860  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:12,985  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:13,522  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2002  (8818 ms)
+2024-09-26 23:52:13,526  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2012
+2024-09-26 23:52:13,526  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2012_5436143756056679914.json.gz
+2024-09-26 23:52:13,568  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2005  (8844 ms)
+2024-09-26 23:52:13,568  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2013
+2024-09-26 23:52:13,568  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2013_11910631784401249644.json.gz
+2024-09-26 23:52:13,598  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2005=1727380800}
+2024-09-26 23:52:13,598  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 14%
+2024-09-26 23:52:13,599  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:15,521  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2004  (10796 ms)
+2024-09-26 23:52:15,521  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2010
+2024-09-26 23:52:15,521  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2010_4150326365651400137.json.gz
+2024-09-26 23:52:15,549  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2005=1727380800, 2004=1727380800}
+2024-09-26 23:52:15,549  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 18%
+2024-09-26 23:52:15,560  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:16,852  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2014
+2024-09-26 23:52:16,852  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2015
+2024-09-26 23:52:16,853  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2014.json.gz
+2024-09-26 23:52:16,853  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2015.json.gz
+2024-09-26 23:52:16,867  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2016
+2024-09-26 23:52:16,868  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2016.json.gz
+2024-09-26 23:52:16,943  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2015  (91 ms)
+2024-09-26 23:52:16,944  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:16,969  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2014  (117 ms)
+2024-09-26 23:52:16,969  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:17,010  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:17,013  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2017
+2024-09-26 23:52:17,015  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2017.json.gz
+2024-09-26 23:52:17,015  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:17,090  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2016  (223 ms)
+2024-09-26 23:52:17,091  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:17,096  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2017  (82 ms)
+2024-09-26 23:52:17,096  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:17,097  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:17,102  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:21,034  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2018
+2024-09-26 23:52:21,035  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2018.json.gz
+2024-09-26 23:52:21,049  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2019
+2024-09-26 23:52:21,061  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2018  (27 ms)
+2024-09-26 23:52:21,062  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:21,065  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2019.json.gz
+2024-09-26 23:52:21,070  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:21,108  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2021
+2024-09-26 23:52:21,109  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2020
+2024-09-26 23:52:21,110  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2019  (51 ms)
+2024-09-26 23:52:21,110  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2020.json.gz
+2024-09-26 23:52:21,110  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2021.json.gz
+2024-09-26 23:52:21,110  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:21,117  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:21,117  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2006  (12297 ms)
+2024-09-26 23:52:21,118  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2015
+2024-09-26 23:52:21,118  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2015_5146403804827310678.json.gz
+2024-09-26 23:52:21,228  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800}
+2024-09-26 23:52:21,228  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 22%
+2024-09-26 23:52:21,231  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:21,305  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2020  (196 ms)
+2024-09-26 23:52:21,305  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:21,332  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:21,333  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2021  (225 ms)
+2024-09-26 23:52:21,334  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:23,234  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2009  (14347 ms)
+2024-09-26 23:52:23,234  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2014
+2024-09-26 23:52:23,235  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2014_11454898958828686886.json.gz
+2024-09-26 23:52:23,406  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2009=1727380800}
+2024-09-26 23:52:23,406  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 27%
+2024-09-26 23:52:23,411  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:25,103  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2022
+2024-09-26 23:52:25,105  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2022.json.gz
+2024-09-26 23:52:25,125  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2023
+2024-09-26 23:52:25,126  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2023.json.gz
+2024-09-26 23:52:25,167  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2022  (63 ms)
+2024-09-26 23:52:25,167  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:25,174  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2023  (49 ms)
+2024-09-26 23:52:25,174  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:25,342  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - 2024
+2024-09-26 23:52:25,343  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/2024.json.gz
+2024-09-26 23:52:25,370  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - 2024  (28 ms)
+2024-09-26 23:52:25,371  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:25,775  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2007  (16992 ms)
+2024-09-26 23:52:25,776  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2016
+2024-09-26 23:52:25,776  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2016_11572351216875883890.json.gz
+2024-09-26 23:52:25,873  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2009=1727380800}
+2024-09-26 23:52:25,873  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 31%
+2024-09-26 23:52:25,878  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:29,471  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2008  (20585 ms)
+2024-09-26 23:52:29,471  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2017
+2024-09-26 23:52:29,471  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2017_8161957300632023182.json.gz
+2024-09-26 23:52:29,506  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:29,506  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 35%
+2024-09-26 23:52:29,514  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:32,512  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2013  (18944 ms)
+2024-09-26 23:52:32,512  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2018
+2024-09-26 23:52:32,512  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2018_14548391163377207757.json.gz
+2024-09-26 23:52:32,535  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2013=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:32,535  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 40%
+2024-09-26 23:52:32,561  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:32,967  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2012  (19441 ms)
+2024-09-26 23:52:32,968  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2019
+2024-09-26 23:52:32,969  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2019_4512536862153067845.json.gz
+2024-09-26 23:52:33,003  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:33,003  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 44%
+2024-09-26 23:52:33,003  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:33,998  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2015  (12880 ms)
+2024-09-26 23:52:33,999  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2020
+2024-09-26 23:52:33,999  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2020_1926128486753445638.json.gz
+2024-09-26 23:52:34,002  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2003=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:34,002  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 48%
+2024-09-26 23:52:34,008  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:37,855  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2010  (22334 ms)
+2024-09-26 23:52:37,855  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2021
+2024-09-26 23:52:37,855  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2021_5341567743286410121.json.gz
+2024-09-26 23:52:37,861  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:37,873  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 53%
+2024-09-26 23:52:37,880  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:39,404  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2011  (26563 ms)
+2024-09-26 23:52:39,405  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2022
+2024-09-26 23:52:39,405  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2022_7176436346081168338.json.gz
+2024-09-26 23:52:39,442  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:39,442  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 57%
+2024-09-26 23:52:39,445  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:40,442  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2014  (17207 ms)
+2024-09-26 23:52:40,442  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2023
+2024-09-26 23:52:40,442  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2023_1206008452623158221.json.gz
+2024-09-26 23:52:40,572  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:40,572  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 61%
+2024-09-26 23:52:40,603  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:43,208  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2016  (17432 ms)
+2024-09-26 23:52:43,208  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - 2024
+2024-09-26 23:52:43,208  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cve2024_10320114033379773369.json.gz
+2024-09-26 23:52:43,234  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2016=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:43,234  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 66%
+2024-09-26 23:52:43,235  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:48,757  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2018  (16245 ms)
+2024-09-26 23:52:48,851  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2018=1727380800, 2006=1727380800, 2005=1727380800, 2016=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:48,851  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 70%
+2024-09-26 23:52:48,852  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:48,945  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2017  (19474 ms)
+2024-09-26 23:52:48,953  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2018=1727380800, 2006=1727380800, 2017=1727380800, 2005=1727380800, 2016=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:48,953  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 74%
+2024-09-26 23:52:48,955  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:49,004  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2019  (16036 ms)
+2024-09-26 23:52:49,060  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2018=1727380800, 2006=1727380800, 2017=1727380800, 2005=1727380800, 2016=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800, 2019=1727380800}
+2024-09-26 23:52:49,061  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 79%
+2024-09-26 23:52:49,061  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:50,293  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2024  (7085 ms)
+2024-09-26 23:52:50,356  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2024=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2018=1727380800, 2006=1727380800, 2017=1727380800, 2005=1727380800, 2016=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800, 2019=1727380800}
+2024-09-26 23:52:50,356  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 83%
+2024-09-26 23:52:50,358  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:51,259  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2020  (17260 ms)
+2024-09-26 23:52:51,337  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2020=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2024=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2018=1727380800, 2006=1727380800, 2017=1727380800, 2005=1727380800, 2016=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800, 2019=1727380800}
+2024-09-26 23:52:51,337  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 87%
+2024-09-26 23:52:51,338  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:54,341  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2021  (16485 ms)
+2024-09-26 23:52:54,419  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2021=1727380800, 2020=1727380800, 2003=1727380800, 2014=1727380800, 2002=1727380800, 2013=1727380800, 2024=1727380800, 2012=1727380800, 2011=1727380800, 2007=1727380800, 2018=1727380800, 2006=1727380800, 2017=1727380800, 2005=1727380800, 2016=1727380800, 2004=1727380800, 2015=1727380800, 2009=1727380800, 2008=1727380800, 2019=1727380800}
+2024-09-26 23:52:54,419  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 92%
+2024-09-26 23:52:54,420  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:52:55,992  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2022  (16587 ms)
+2024-09-26 23:52:56,028  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - 2023  (15586 ms)
+2024-09-26 23:52:56,028  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:52:56,047  |  DEBUG  |  [FeedsUpdatingProgressTracker.kt:48]  |  currentFeedsLastUpdateTimes is {2010=1727380800, 2014=1727380800, 2013=1727380800, 2012=1727380800, 2011=1727380800, 2018=1727380800, 2017=1727380800, 2016=1727380800, 2015=1727380800, 2019=1727380800, 2021=1727380800, 2020=1727380800, 2003=1727380800, 2002=1727380800, 2024=1727380800, 2023=1727380800, 2022=1727380800, 2007=1727380800, 2006=1727380800, 2005=1727380800, 2004=1727380800, 2009=1727380800, 2008=1727380800}
+2024-09-26 23:52:56,047  |  INFO  |  [FeedsUpdatingProgressTracker.kt:49]  |  feeds processing progress is 100%
+2024-09-26 23:52:56,048  |  INFO  |  [Messenger.kt:104]  |  Sent message Progress
+2024-09-26 23:53:00,036  |  INFO  |  [DownloadTask.java:133]  |  Download Started for NVD CVE - Modified
+2024-09-26 23:53:00,038  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/modified.json.gz
+2024-09-26 23:53:00,050  |  INFO  |  [DownloadTask.java:141]  |  Download Complete for NVD CVE - Modified  (14 ms)
+2024-09-26 23:53:00,051  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:00,055  |  INFO  |  [ProcessTask.java:151]  |  Processing Started for NVD CVE - Modified
+2024-09-26 23:53:00,055  |  DEBUG  |  [NvdCveParser.java:91]  |  Parsing cveModified_10214992349698071846.json.gz
+2024-09-26 23:53:00,836  |  INFO  |  [ProcessTask.java:164]  |  Processing Complete for NVD CVE - Modified  (781 ms)
+2024-09-26 23:53:01,061  |  DEBUG  |  [CveDB.java:140]  |  Updating the ecosystem cache
+2024-09-26 23:53:01,067  |  DEBUG  |  [NvdCveUpdater.java:145]  |  Corrected the ecosystem for 5 ecoSystemCache entries
+2024-09-26 23:53:01,068  |  INFO  |  [CveDB.java:1353]  |  Begin database maintenance
+2024-09-26 23:53:16,711  |  INFO  |  [CveDB.java:1362]  |  Updated the CPE ecosystem on 141363 NVD records
+2024-09-26 23:53:18,650  |  INFO  |  [CveDB.java:1368]  |  Removed the CPE ecosystem on 4299 NVD records
+2024-09-26 23:53:20,123  |  INFO  |  [CveDB.java:1374]  |  Cleaned up 1 orphaned NVD records
+2024-09-26 23:53:20,123  |  INFO  |  [CveDB.java:1379]  |  End database maintenance (19055 ms)
+2024-09-26 23:53:20,127  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:20,128  |  DEBUG  |  [RetireJSDataSource.java:88]  |  Begin RetireJS Update
+2024-09-26 23:53:20,128  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:20,172  |  DEBUG  |  [WriteLock.java:168]  |  Lock file created (Thread-9) cdb1dfcd48cd7a02c41615f7117e5a3e @ 2024-09-26 23:53:20.172
+2024-09-26 23:53:20,172  |  DEBUG  |  [RetireJSDataSource.java:137]  |  RetireJS Repo URL: http://localhost:5008/api/DataFeeds/jsrepository.json
+2024-09-26 23:53:20,173  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of http://localhost:5008/api/DataFeeds/jsrepository.json
+2024-09-26 23:53:20,182  |  DEBUG  |  [WriteLock.java:240]  |  Lock released (Thread-9) cdb1dfcd48cd7a02c41615f7117e5a3e @ 2024-09-26 23:53:20.182
+2024-09-26 23:53:20,183  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:20,184  |  DEBUG  |  [HostedSuppressionsDataSource.java:77]  |  Begin Hosted Suppressions file update
+2024-09-26 23:53:20,184  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:20,219  |  DEBUG  |  [WriteLock.java:168]  |  Lock file created (Thread-9) 44de30ad628290448dd75b916b73140a @ 2024-09-26 23:53:20.219
+2024-09-26 23:53:20,219  |  DEBUG  |  [HostedSuppressionsDataSource.java:131]  |  Hosted Suppressions URL: https://jeremylong.github.io/DependencyCheck/suppressions/publishedSuppressions.xml
+2024-09-26 23:53:20,220  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of https://jeremylong.github.io/DependencyCheck/suppressions/publishedSuppressions.xml
+2024-09-26 23:53:20,232  |  DEBUG  |  [SSLSocketFactoryEx.java:283]  |  Available Protocols:
+2024-09-26 23:53:20,232  |  DEBUG  |  [SSLSocketFactoryEx.java:285]  |  SSLv2Hello
+2024-09-26 23:53:20,232  |  DEBUG  |  [SSLSocketFactoryEx.java:285]  |  SSLv3
+2024-09-26 23:53:20,232  |  DEBUG  |  [SSLSocketFactoryEx.java:285]  |  TLSv1
+2024-09-26 23:53:20,232  |  DEBUG  |  [SSLSocketFactoryEx.java:285]  |  TLSv1.1
+2024-09-26 23:53:20,232  |  DEBUG  |  [SSLSocketFactoryEx.java:285]  |  TLSv1.2
+2024-09-26 23:53:20,232  |  DEBUG  |  [SSLSocketFactoryEx.java:285]  |  TLSv1.3
+2024-09-26 23:53:20,468  |  DEBUG  |  [WriteLock.java:240]  |  Lock released (Thread-9) 44de30ad628290448dd75b916b73140a @ 2024-09-26 23:53:20.468
+2024-09-26 23:53:20,470  |  INFO  |  [KnownExploitedDataSource.java:77]  |  Updating CISA Known Exploited Vulnerability list: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2024-09-26 23:53:20,470  |  DEBUG  |  [HttpResourceConnection.java:200]  |  Attempting retrieval of https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2024-09-26 23:53:20,817  |  INFO  |  [CveDB.java:1404]  |  Begin database defrag
+2024-09-26 23:53:27,106  |  INFO  |  [CveDB.java:1408]  |  End database defrag (6293 ms)
+2024-09-26 23:53:27,107  |  DEBUG  |  [CveDB.java:311]  |  Closing database
+2024-09-26 23:53:27,107  |  DEBUG  |  [CveDB.java:313]  |  Cache cleared
+2024-09-26 23:53:27,108  |  DEBUG  |  [CveDB.java:316]  |  Connection closed
+2024-09-26 23:53:27,109  |  DEBUG  |  [CveDB.java:322]  |  Resources released
+2024-09-26 23:53:27,109  |  DEBUG  |  [DriverLoader.java:57]  |  Begin deregister driver
+2024-09-26 23:53:27,109  |  DEBUG  |  [DriverLoader.java:59]  |  End deregister driver
+2024-09-26 23:53:27,109  |  INFO  |  [Engine.java:916]  |  Check for updates complete (86615 ms)
+2024-09-26 23:53:27,111  |  DEBUG  |  [WriteLock.java:240]  |  Lock released (Thread-9) fbeaad8b1cea4406ec49a73e796779c0 @ 2024-09-26 23:53:27.111
+2024-09-26 23:53:27,111  |  INFO  |  [DependencyCheckerWrapper.kt:161]  |  DB update done!
+2024-09-26 23:53:27,111  |  INFO  |  [FeedsUpdatingProgressTracker.kt:154]  |  process tracker was canceled
+2024-09-26 23:53:27,111  |  INFO  |  [ElementEventQueue.java:86]  |  Element event queue destroyed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@3595c336
+2024-09-26 23:53:27,112  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [NODEAUDIT] fromRemote [false]
+2024-09-26 23:53:27,112  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [NODEAUDIT] auxiliary [NODEAUDIT]
+2024-09-26 23:53:27,113  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [NODEAUDIT] put 0 into auxiliary NODEAUDIT
+2024-09-26 23:53:27,136  |  INFO  |  [FeedsUpdatingProgressTracker.kt:53]  |  exiting from FeedsUpdatingProgressTracker
+2024-09-26 23:53:27,230  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-09-26 23:53:27,231  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-09-26 23:53:27,234  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [NODEAUDIT] Saving keys to: NODEAUDIT, key count: 0
+2024-09-26 23:53:27,234  |  DEBUG  |  [IndexedDisk.java:251]  |  Resetting Indexed File [C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache\NODEAUDIT.key]
+2024-09-26 23:53:27,236  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [NODEAUDIT] Finished saving keys.
+2024-09-26 23:53:27,236  |  DEBUG  |  [IndexedDiskCache.java:1103]  |  Region [NODEAUDIT] Closing files, base filename: NODEAUDIT
+2024-09-26 23:53:27,237  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [NODEAUDIT] Shutdown complete.
+2024-09-26 23:53:27,237  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [NODEAUDIT] disposing of memory cache.
+2024-09-26 23:53:27,237  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-09-26 23:53:27,237  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [CENTRAL] fromRemote [false]
+2024-09-26 23:53:27,237  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [CENTRAL] auxiliary [CENTRAL]
+2024-09-26 23:53:27,237  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [CENTRAL] put 0 into auxiliary CENTRAL
+2024-09-26 23:53:27,353  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-09-26 23:53:27,353  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-09-26 23:53:27,354  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [CENTRAL] Saving keys to: CENTRAL, key count: 0
+2024-09-26 23:53:27,354  |  DEBUG  |  [IndexedDisk.java:251]  |  Resetting Indexed File [C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache\CENTRAL.key]
+2024-09-26 23:53:27,355  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [CENTRAL] Finished saving keys.
+2024-09-26 23:53:27,355  |  DEBUG  |  [IndexedDiskCache.java:1103]  |  Region [CENTRAL] Closing files, base filename: CENTRAL
+2024-09-26 23:53:27,357  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [CENTRAL] Shutdown complete.
+2024-09-26 23:53:27,358  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [CENTRAL] disposing of memory cache.
+2024-09-26 23:53:27,358  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-09-26 23:53:27,358  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [POM] fromRemote [false]
+2024-09-26 23:53:27,358  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [POM] auxiliary [POM]
+2024-09-26 23:53:27,358  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [POM] put 0 into auxiliary POM
+2024-09-26 23:53:27,463  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-09-26 23:53:27,464  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-09-26 23:53:27,466  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [POM] Saving keys to: POM, key count: 0
+2024-09-26 23:53:27,466  |  DEBUG  |  [IndexedDisk.java:251]  |  Resetting Indexed File [C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache\POM.key]
+2024-09-26 23:53:27,467  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [POM] Finished saving keys.
+2024-09-26 23:53:27,468  |  DEBUG  |  [IndexedDiskCache.java:1103]  |  Region [POM] Closing files, base filename: POM
+2024-09-26 23:53:27,469  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [POM] Shutdown complete.
+2024-09-26 23:53:27,469  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [POM] disposing of memory cache.
+2024-09-26 23:53:27,469  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-09-26 23:53:27,470  |  DEBUG  |  [Settings.java:895]  |  Deleting ALL temporary files from `C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctempf8410599-6697-4ec1-a2a6-f813220f2f25`
+2024-09-26 23:53:27,489  |  INFO  |  [Messenger.kt:74]  |  Sent message PrecheckDone
+2024-09-26 23:53:27,750  |  INFO  |  [Messenger.kt:54]  |  Received message Scan
+2024-09-26 23:53:27,758  |  INFO  |  [Executor.kt:113]  |  Check additional directory...
+2024-09-26 23:53:27,758  |  INFO  |  [Executor.kt:116]  |  Analyzing directory...
+2024-09-26 23:53:27,763  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-09-26 23:53:27,789  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-09-26 23:53:27,836  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-09-26 23:53:27,836  |  INFO  |  [DependencyCheckerWrapper.kt:260]  |  Updating settings with DB dir C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck, baseUrl http://localhost:5008/api/DataFeeds/%d.json.gz, modifiedUrl: http://localhost:5008/api/DataFeeds/modified.json.gz
+2024-09-26 23:53:27,842  |  DEBUG  |  [Settings.java:970]  |  Properties loaded:
+
+analyzer.cocoapods.enabled='true'
+cve.url.base='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-%d.json.gz'
+proxy.disableSchemas='true'
+cve.url.modified.validfordays='7'
+analyzer.dependencybundling.enabled='true'
+cve.url.original='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz'
+odc.ecosystem.maxquerylimit.native='1000'
+data.connection_string='jdbc:h2:file:%s;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+archive.scan.depth='3'
+analyzer.cmake.enabled='true'
+analyzer.pipfile.enabled='true'
+cve.download.waittime='4000'
+odc.application.name='Dependency-Check Core'
+analyzer.retirejs.repo.validforhours='24'
+analyzer.node.package.enabled='true'
+analyzer.central.url='https://search.maven.org/solrsearch/select'
+analyzer.pe.enabled='true'
+analyzer.poetry.enabled='true'
+downloader.quick.query.timestamp='true'
+analyzer.archive.enabled='true'
+analyzer.retirejs.repo.js.url='https://raw.githubusercontent.com/Retirejs/retire.js/master/repository/jsrepository.json'
+analyzer.swift.package.resolved.enabled='true'
+cpe.url='https://static.nvd.nist.gov/feeds/xml/cpe/dictionary/official-cpe-dictionary_v2.3.xml.gz'
+analyzer.ossindex.url='https://ossindex.sonatype.org'
+analyzer.nvdcve.enabled='true'
+analyzer.jar.enabled='true'
+analyzer.cpe.enabled='true'
+analyzer.knownexploited.enabled='true'
+analyzer.cpanfile.enabled='true'
+data.writelock.shutdownhook='org.owasp.dependencycheck.utils.WriteLockCleanupHook'
+analyzer.central.query='%s?q=1:%s&wt=xml'
+analyzer.bundle.audit.enabled='true'
+analyzer.node.audit.use.cache='true'
+odc.settings.mask='.*password.*,.*token.*'
+analyzer.dependencymerging.enabled='true'
+cpe.validfordays='30'
+analyzer.pnpm.audit.enabled='true'
+junit.fail.on.cvss='0'
+central.content.url='https://search.maven.org/remotecontent?filepath='
+analyzer.node.audit.url='https://registry.npmjs.org/-/npm/v1/security/audits'
+odc.application.version='8.4.0'
+analyzer.msbuildproject.enabled='true'
+data.user='dcuser'
+engine.version.url='https://jeremylong.github.io/DependencyCheck/current.txt'
+odc.autoupdate='true'
+analyzer.autoconf.enabled='true'
+analyzer.cpesuppression.enabled='true'
+analyzer.retirejs.enabled='true'
+cve.check.validforhours='4'
+hosted.suppressions.validforhours='2'
+analyzer.versionfilter.enabled='true'
+analyzer.assembly.enabled='true'
+cve.cpe.startswith.filter='cpe:2.3:a:'
+analyzer.golang.dep.enabled='true'
+odc.analysis.timeout='180'
+analyzer.nexus.url='https://repository.sonatype.org/service/local/'
+cve.url.base.defaultFilename='nvdcve-1.1-%d.json.gz'
+analyzer.hint.enabled='true'
+analyzer.dart.enabled='true'
+hosted.suppressions.enabled='true'
+analyzer.retired.enabled='false'
+database.batchinsert.enabled='true'
+analyzer.openssl.enabled='true'
+analyzer.swift.package.manager.enabled='true'
+analyzer.nuspec.enabled='true'
+analyzer.central.retry.count='7'
+analyzer.central.use.cache='true'
+updater.nvdcve.enabled='true'
+analyzer.mix.audit.enabled='true'
+max.download.threads='1'
+analyzer.central.enabled='true'
+analyzer.python.distribution.enabled='true'
+analyzer.nexus.enabled='false'
+cve.url.modified.defaultFilename='nvdcve-1.1-modified.json.gz'
+odc.reports.pretty.print='false'
+analyzer.artifactory.enabled='false'
+analyzer.retirejs.filternonvulnerable='false'
+analyzer.ossindex.enabled='true'
+analyzer.central.parallel.analysis='false'
+analyzer.nexus.proxy='true'
+cve.startyear='2002'
+analyzer.maveninstall.enabled='true'
+odc.ecosystem.maxquerylimit.default='100'
+nvd.newyear.grace.period='10'
+downloader.tls.protocols='TLSv1.1,TLSv1.2,TLSv1.3'
+data.file_name='odc.mv.db'
+analyzer.ruby.gemspec.enabled='true'
+analyzer.composer.lock.enabled='true'
+data.version='5.4'
+kev.check.validforhours='24'
+analyzer.vulnerabilitysuppression.enabled='true'
+analyzer.libman.enabled='true'
+data.directory='[JAR]/data/7.0'
+analyzer.experimental.enabled='false'
+analyzer.golang.mod.enabled='true'
+analyzer.filename.enabled='true'
+analyzer.ossindex.use.cache='true'
+analyzer.python.package.enabled='true'
+updater.versioncheck.enabled='true'
+ecosystem.skip.cpeanalyzer='npm'
+kev.url='https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json'
+analyzer.pip.enabled='true'
+analyzer.falsepositive.enabled='true'
+analyzer.node.audit.enabled='true'
+analyzer.yarn.audit.enabled='true'
+analyzer.npm.cpe.enabled='true'
+database.batchinsert.maxsize='1000'
+data.driver_name='org.h2.Driver'
+hosted.suppressions.url='https://jeremylong.github.io/DependencyCheck/suppressions/publishedSuppressions.xml'
+data.password='********'
+analyzer.nugetconf.enabled='true'
+cve.url.modified='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz'
+
+2024-09-26 23:53:27,842  |  DEBUG  |  [Settings.java:983]  |  Setting: data.directory='C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:27,842  |  DEBUG  |  [Settings.java:983]  |  Setting: temp.directory='C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck'
+2024-09-26 23:53:27,842  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.central.enabled='true'
+2024-09-26 23:53:27,846  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'go version', some results may not be available
+2024-09-26 23:53:27,846  |  WARN  |  [AnalyzersAvailabilityChecker.kt:22]  |  can't execute 'go version' command, golang analyzer is disabled
+2024-09-26 23:53:27,848  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-09-26 23:53:27,848  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-09-26 23:53:27,852  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-09-26 23:53:27,853  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
+2024-09-26 23:53:27,918  |  WARN  |  [AnalyzersAvailabilityChecker.kt:37]  |  Dotnet analyzer is disabled
+2024-09-26 23:53:28,516  |  INFO  |  [AnalyzersAvailabilityChecker.kt:56]  |  Maven Central (https://search.maven.org/) is reachable: true
+2024-09-26 23:53:28,517  |  INFO  |  [AnalyzersAvailabilityChecker.kt:61]  |  Npm registry (https://registry.npmjs.org/) is reachable: true
+2024-09-26 23:53:28,518  |  INFO  |  [AnalyzersAvailabilityChecker.kt:66]  |  CISA feeds (https://www.cisa.gov/) is reachable: true
+2024-09-26 23:53:28,518  |  INFO  |  [AnalyzersAvailabilityChecker.kt:71]  |  OSS Index (https://ossindex.sonatype.org/) is reachable: true
+2024-09-26 23:53:28,518  |  DEBUG  |  [Settings.java:983]  |  Setting: cve.url.base='http://localhost:5008/api/DataFeeds/%d.json.gz'
+2024-09-26 23:53:28,518  |  DEBUG  |  [Settings.java:983]  |  Setting: cve.url.modified='http://localhost:5008/api/DataFeeds/modified.json.gz'
+2024-09-26 23:53:28,519  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.retirejs.repo.js.url='http://localhost:5008/api/DataFeeds/jsrepository.json'
+2024-09-26 23:53:28,519  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.retirejs.enabled='true'
+2024-09-26 23:53:28,519  |  INFO  |  [DependencyCheckerWrapper.kt:277]  |  RetireJS Enabled for http://localhost:5008/api/DataFeeds/jsrepository.json
+2024-09-26 23:53:28,519  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.nexus.enabled='false'
+2024-09-26 23:53:28,519  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.ossindex.enabled='true'
+2024-09-26 23:53:28,520  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.experimental.enabled='true'
+2024-09-26 23:53:28,520  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.central.enabled='true'
+2024-09-26 23:53:28,521  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.golang.dep.enabled='false'
+2024-09-26 23:53:28,521  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.golang.mod.enabled='false'
+2024-09-26 23:53:28,521  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.golang.path='false'
+2024-09-26 23:53:28,521  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.bundle.audit.enabled='false'
+2024-09-26 23:53:28,521  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.assembly.enabled='false'
+2024-09-26 23:53:28,522  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.yarn.audit.enabled='false'
+2024-09-26 23:53:28,522  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.node.audit.enabled='true'
+2024-09-26 23:53:28,522  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.knownexploited.enabled='true'
+2024-09-26 23:53:28,522  |  DEBUG  |  [Settings.java:1082]  |  Setting: max.download.threads='4'
+2024-09-26 23:53:28,522  |  DEBUG  |  [Settings.java:983]  |  Setting: analyzer.pe.enabled='false'
+2024-09-26 23:53:28,522  |  DEBUG  |  [Settings.java:983]  |  Setting: odc.autoupdate='true'
+2024-09-26 23:53:28,523  |  INFO  |  [DependencyCheckerWrapper.kt:207]  |  Scanning dependency set...
+2024-09-26 23:53:28,525  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Archive Analyzer
+2024-09-26 23:53:28,525  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer File Name Analyzer
+2024-09-26 23:53:28,525  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer PE Analyzer
+2024-09-26 23:53:28,525  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Jar Analyzer
+2024-09-26 23:53:28,525  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Hint Analyzer
+2024-09-26 23:53:28,525  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer CPE Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer NPM CPE Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer False Positive Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Dependency Bundling Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Dependency Merging Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer NVD CVE Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Vulnerability Suppression Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Central Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Nexus Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Artifactory Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Nuspec Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Nugetconf Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer MSBuild Project Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Assembly Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Python Distribution Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Python Package Analyzer
+2024-09-26 23:53:28,526  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer pip Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pipfile Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pipfile.lock Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Poetry Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Autoconf Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer OpenSSL Source Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer CMake Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Node.js Package Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Node Audit Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Yarn Audit Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pnpm Audit Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Golang Mod Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Golang Dep Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer RetireJS Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Ruby Gemspec Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Ruby Bundler Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Ruby Bundle Audit Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Elixir Mix Audit Analyzer
+2024-09-26 23:53:28,527  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Composer.lock analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer CocoaPods Package Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer SWIFT Package Manager Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer SWIFT Package Resolved Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Version Filter Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Sonatype OSS Index Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Perl cpanfile Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Pinned Maven install Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Known Exploited Vulnerability Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Dart Package Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Unused Suppression Rule Analyzer
+2024-09-26 23:53:28,528  |  DEBUG  |  [AnalyzerService.java:113]  |  Loaded Analyzer Libman Analyzer
+2024-09-26 23:53:28,529  |  DEBUG  |  [ElementEventQueue.java:65]  |  Constructed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@4dfbca0c
+2024-09-26 23:53:28,529  |  DEBUG  |  [ThreadPoolManager.java:292]  |  Initializing ThreadPoolManager
+2024-09-26 23:53:28,530  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.default PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-09-26 23:53:28,530  |  DEBUG  |  [CompositeCacheManager.java:459]  |  ThreadPoolManager = org.apache.commons.jcs.utils.threadpool.ThreadPoolManager@1606fe85
+2024-09-26 23:53:28,530  |  INFO  |  [CompositeCacheManager.java:471]  |  Setting default auxiliaries to ODC
+2024-09-26 23:53:28,530  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.default.cacheattributes'
+2024-09-26 23:53:28,531  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxMemoryIdleTimeSeconds] to [3600].
+2024-09-26 23:53:28,531  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:53:28,531  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [shrinkerIntervalSeconds] to [60].
+2024-09-26 23:53:28,531  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:53:28,531  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [memoryCacheName] to [org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache].
+2024-09-26 23:53:28,531  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [useMemoryShrinker] to [false].
+2024-09-26 23:53:28,531  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.default.cacheattributes".
+2024-09-26 23:53:28,531  |  INFO  |  [CompositeCacheManager.java:477]  |  setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:53:28,531  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.default.elementattributes'
+2024-09-26 23:53:28,533  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isEternal] to [false].
+2024-09-26 23:53:28,533  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:53:28,533  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:53:28,534  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:53:28,534  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [idleTime] to [1800].
+2024-09-26 23:53:28,535  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [86400].
+2024-09-26 23:53:28,535  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.default.elementattributes".
+2024-09-26 23:53:28,535  |  INFO  |  [CompositeCacheManager.java:483]  |  setting defaultElementAttributes to [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1727384008531, LastAccessTime = 1727384008531, getTimeToLiveSeconds() = 86399, createTime = 1727384008531 ]
+2024-09-26 23:53:28,535  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.region.CENTRAL.elementattributes'
+2024-09-26 23:53:28,535  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:53:28,535  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [2592000].
+2024-09-26 23:53:28,535  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:53:28,536  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:53:28,536  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.region.CENTRAL.elementattributes".
+2024-09-26 23:53:28,536  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.region.CENTRAL.cacheattributes'
+2024-09-26 23:53:28,537  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:53:28,537  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:53:28,537  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.region.CENTRAL.cacheattributes".
+2024-09-26 23:53:28,537  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for CENTRAL
+2024-09-26 23:53:28,537  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [CENTRAL] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:53:28,538  |  DEBUG  |  [CompositeCacheConfigurator.java:232]  |  Parsing region name 'CENTRAL', value 'ODC'
+2024-09-26 23:53:28,538  |  DEBUG  |  [CompositeCacheConfigurator.java:259]  |  Parsing auxiliary named "ODC".
+2024-09-26 23:53:28,538  |  DEBUG  |  [CompositeCacheConfigurator.java:418]  |  parseAuxiliary ODC
+2024-09-26 23:53:28,538  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.region.POM.elementattributes'
+2024-09-26 23:53:28,538  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [7776000].
+2024-09-26 23:53:28,538  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:53:28,539  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:53:28,539  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:53:28,539  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.region.POM.elementattributes".
+2024-09-26 23:53:28,539  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.region.POM.cacheattributes'
+2024-09-26 23:53:28,539  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:53:28,539  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:53:28,540  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.region.POM.cacheattributes".
+2024-09-26 23:53:28,540  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for POM
+2024-09-26 23:53:28,540  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [POM] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:53:28,540  |  DEBUG  |  [CompositeCacheConfigurator.java:232]  |  Parsing region name 'POM', value 'ODC'
+2024-09-26 23:53:28,540  |  DEBUG  |  [CompositeCacheConfigurator.java:259]  |  Parsing auxiliary named "ODC".
+2024-09-26 23:53:28,540  |  DEBUG  |  [CompositeCacheConfigurator.java:418]  |  parseAuxiliary ODC
+2024-09-26 23:53:28,541  |  DEBUG  |  [CompositeCacheConfigurator.java:388]  |  Parsing options for 'jcs.region.NODEAUDIT.elementattributes'
+2024-09-26 23:53:28,541  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isRemote] to [false].
+2024-09-26 23:53:28,541  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isSpool] to [true].
+2024-09-26 23:53:28,541  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [isLateral] to [false].
+2024-09-26 23:53:28,541  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxLife] to [86400].
+2024-09-26 23:53:28,541  |  DEBUG  |  [CompositeCacheConfigurator.java:396]  |  End of parsing for "jcs.region.NODEAUDIT.elementattributes".
+2024-09-26 23:53:28,542  |  DEBUG  |  [CompositeCacheConfigurator.java:340]  |  Parsing options for 'jcs.region.NODEAUDIT.cacheattributes'
+2024-09-26 23:53:28,542  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [diskUsagePattern] to [UPDATE].
+2024-09-26 23:53:28,542  |  DEBUG  |  [PropertySetter.java:218]  |  Setting property [maxObjects] to [0].
+2024-09-26 23:53:28,542  |  DEBUG  |  [CompositeCacheConfigurator.java:348]  |  End of parsing for "jcs.region.NODEAUDIT.cacheattributes".
+2024-09-26 23:53:28,542  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for NODEAUDIT
+2024-09-26 23:53:28,542  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [NODEAUDIT] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-09-26 23:53:28,542  |  DEBUG  |  [CompositeCacheConfigurator.java:232]  |  Parsing region name 'NODEAUDIT', value 'ODC'
+2024-09-26 23:53:28,542  |  DEBUG  |  [CompositeCacheConfigurator.java:259]  |  Parsing auxiliary named "ODC".
+2024-09-26 23:53:28,542  |  DEBUG  |  [CompositeCacheConfigurator.java:418]  |  parseAuxiliary ODC
+2024-09-26 23:53:28,542  |  INFO  |  [CompositeCacheConfigurator.java:144]  |  Parsed regions [CENTRAL, POM, NODEAUDIT]
+2024-09-26 23:53:28,542  |  INFO  |  [CompositeCacheManager.java:495]  |  Finished configuration in 12 ms.
+2024-09-26 23:53:28,542  |  DEBUG  |  [CompositeCacheManager.java:591]  |  attr = [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1727384008542, LastAccessTime = 1727384008531, getTimeToLiveSeconds() = 86400, createTime = 1727384008542 ]
+2024-09-26 23:53:28,556  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,557  |  DEBUG  |  [Settings.java:1441]  |  Data directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck
+2024-09-26 23:53:28,558  |  DEBUG  |  [Settings.java:1457]  |  Connection String: 'jdbc:h2:file:C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2024-09-26 23:53:28,559  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,595  |  DEBUG  |  [WriteLock.java:168]  |  Lock file created (Thread-31) ddca19e5f305514d1a8b73d93bf571f8 @ 2024-09-26 23:53:28.595
+2024-09-26 23:53:28,595  |  DEBUG  |  [DatabaseManager.java:143]  |  Loading driver 'org.h2.Driver'
+2024-09-26 23:53:28,596  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,596  |  DEBUG  |  [Settings.java:1441]  |  Data directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck
+2024-09-26 23:53:28,596  |  DEBUG  |  [Settings.java:1457]  |  Connection String: 'jdbc:h2:file:C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2024-09-26 23:53:28,596  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,597  |  DEBUG  |  [DatabaseManager.java:172]  |  Need to create DB Structure: false
+2024-09-26 23:53:28,597  |  DEBUG  |  [DatabaseManager.java:178]  |  Loading database connection
+2024-09-26 23:53:28,597  |  DEBUG  |  [DatabaseManager.java:179]  |  Connection String: jdbc:h2:file:C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;
+2024-09-26 23:53:28,597  |  DEBUG  |  [DatabaseManager.java:180]  |  Database User: dcuser
+2024-09-26 23:53:28,644  |  DEBUG  |  [DatabaseManager.java:241]  |  Database product: h2
+2024-09-26 23:53:28,645  |  DEBUG  |  [DatabaseManager.java:502]  |  DC Schema: 5.4
+2024-09-26 23:53:28,645  |  DEBUG  |  [DatabaseManager.java:503]  |  DB Schema: 5.4
+2024-09-26 23:53:28,733  |  INFO  |  [Engine.java:893]  |  Checking for updates
+2024-09-26 23:53:28,735  |  INFO  |  [NvdCveUpdater.java:234]  |  Skipping NVD check since last check was within 4 hours.
+2024-09-26 23:53:28,736  |  DEBUG  |  [NvdCveUpdater.java:235]  |  Last NVD was at 1727383980, and now 1727384008 is within 14400 s.
+2024-09-26 23:53:28,736  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,736  |  DEBUG  |  [RetireJSDataSource.java:114]  |  Last updated: 1727384000181
+2024-09-26 23:53:28,736  |  DEBUG  |  [RetireJSDataSource.java:115]  |  Now: 1727384008736
+2024-09-26 23:53:28,736  |  INFO  |  [RetireJSDataSource.java:119]  |  Skipping RetireJS update since last update was within 24 hours.
+2024-09-26 23:53:28,736  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,736  |  DEBUG  |  [HostedSuppressionsDataSource.java:107]  |  Last updated: 1727384000465
+2024-09-26 23:53:28,736  |  DEBUG  |  [HostedSuppressionsDataSource.java:108]  |  Now: 1727384008736
+2024-09-26 23:53:28,737  |  INFO  |  [HostedSuppressionsDataSource.java:112]  |  Skipping Hosted Suppressions file update since last update was within 2 hours.
+2024-09-26 23:53:28,737  |  INFO  |  [KnownExploitedDataSource.java:127]  |  Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+2024-09-26 23:53:28,737  |  DEBUG  |  [CveDB.java:311]  |  Closing database
+2024-09-26 23:53:28,737  |  DEBUG  |  [CveDB.java:313]  |  Cache cleared
+2024-09-26 23:53:28,757  |  DEBUG  |  [CveDB.java:316]  |  Connection closed
+2024-09-26 23:53:28,757  |  DEBUG  |  [CveDB.java:322]  |  Resources released
+2024-09-26 23:53:28,757  |  DEBUG  |  [DriverLoader.java:57]  |  Begin deregister driver
+2024-09-26 23:53:28,757  |  DEBUG  |  [DriverLoader.java:59]  |  End deregister driver
+2024-09-26 23:53:28,759  |  INFO  |  [Engine.java:916]  |  Check for updates complete (26 ms)
+2024-09-26 23:53:28,759  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,759  |  DEBUG  |  [Settings.java:1441]  |  Data directory: C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck
+2024-09-26 23:53:28,759  |  DEBUG  |  [Settings.java:1457]  |  Connection String: 'jdbc:h2:file:C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2024-09-26 23:53:28,759  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:28,760  |  DEBUG  |  [FileUtils.java:121]  |  Temporary directory is `C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a`
+2024-09-26 23:53:28,761  |  DEBUG  |  [Engine.java:1008]  |  copying database C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\odc.mv.db to C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a
+2024-09-26 23:53:28,857  |  DEBUG  |  [Settings.java:983]  |  Setting: data.h2.directory='C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a'
+2024-09-26 23:53:28,857  |  DEBUG  |  [Settings.java:983]  |  Setting: data.connection_string='jdbc:h2:file:%s;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r'
+2024-09-26 23:53:28,858  |  DEBUG  |  [Settings.java:983]  |  Setting: odc.autoupdate='false'
+2024-09-26 23:53:28,858  |  DEBUG  |  [DatabaseManager.java:143]  |  Loading driver 'org.h2.Driver'
+2024-09-26 23:53:28,858  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a'
+2024-09-26 23:53:28,858  |  DEBUG  |  [Settings.java:1441]  |  Data directory: C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a
+2024-09-26 23:53:28,860  |  DEBUG  |  [Settings.java:1457]  |  Connection String: 'jdbc:h2:file:C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r'
+2024-09-26 23:53:28,860  |  DEBUG  |  [DatabaseManager.java:178]  |  Loading database connection
+2024-09-26 23:53:28,860  |  DEBUG  |  [DatabaseManager.java:179]  |  Connection String: jdbc:h2:file:C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a\odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r
+2024-09-26 23:53:28,861  |  DEBUG  |  [DatabaseManager.java:180]  |  Database User: dcuser
+2024-09-26 23:53:28,893  |  DEBUG  |  [DatabaseManager.java:241]  |  Database product: h2
+2024-09-26 23:53:28,894  |  DEBUG  |  [DatabaseManager.java:502]  |  DC Schema: 5.4
+2024-09-26 23:53:28,894  |  DEBUG  |  [DatabaseManager.java:503]  |  DB Schema: 5.4
+2024-09-26 23:53:28,962  |  DEBUG  |  [WriteLock.java:240]  |  Lock released (Thread-31) ddca19e5f305514d1a8b73d93bf571f8 @ 2024-09-26 23:53:28.962
+2024-09-26 23:53:28,962  |  INFO  |  [Engine.java:641]  |  
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user’s risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
+   False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
+
+? Sponsor: https://github.com/sponsors/jeremylong
+
+
+2024-09-26 23:53:28,963  |  DEBUG  |  [Engine.java:651]  |  
+----------------------------------------------------
+BEGIN ANALYSIS
+----------------------------------------------------
+2024-09-26 23:53:28,963  |  INFO  |  [Engine.java:652]  |  Analysis Started
+2024-09-26 23:53:28,963  |  DEBUG  |  [Engine.java:825]  |  Initializing Archive Analyzer
+2024-09-26 23:53:28,967  |  DEBUG  |  [Engine.java:760]  |  Starting Archive Analyzer
+2024-09-26 23:53:28,970  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: Archive Analyzer.
+2024-09-26 23:53:28,975  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Archive Analyzer)
+2024-09-26 23:53:28,985  |  INFO  |  [Engine.java:675]  |  Finished Archive Analyzer (0 seconds)
+2024-09-26 23:53:28,987  |  DEBUG  |  [Engine.java:825]  |  Initializing Ruby Bundle Audit Analyzer
+2024-09-26 23:53:28,987  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  Ruby Bundle Audit Analyzer has been disabled
+2024-09-26 23:53:28,987  |  DEBUG  |  [Engine.java:677]  |  Skipping Ruby Bundle Audit Analyzer (not enabled)
+2024-09-26 23:53:28,987  |  DEBUG  |  [Engine.java:825]  |  Initializing Elixir Mix Audit Analyzer
+2024-09-26 23:53:28,987  |  DEBUG  |  [Engine.java:677]  |  Skipping Elixir Mix Audit Analyzer (not enabled)
+2024-09-26 23:53:28,987  |  DEBUG  |  [Engine.java:825]  |  Initializing File Name Analyzer
+2024-09-26 23:53:28,987  |  DEBUG  |  [Engine.java:760]  |  Starting File Name Analyzer
+2024-09-26 23:53:28,988  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: File Name Analyzer.
+2024-09-26 23:53:28,989  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (File Name Analyzer)
+2024-09-26 23:53:28,993  |  INFO  |  [Engine.java:675]  |  Finished File Name Analyzer (0 seconds)
+2024-09-26 23:53:28,993  |  DEBUG  |  [Engine.java:825]  |  Initializing Jar Analyzer
+2024-09-26 23:53:28,997  |  DEBUG  |  [Engine.java:760]  |  Starting Jar Analyzer
+2024-09-26 23:53:28,997  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: Jar Analyzer.
+2024-09-26 23:53:29,003  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Jar Analyzer)
+2024-09-26 23:53:29,007  |  DEBUG  |  [JarAnalyzer.java:862]  |  Jar file 'test_web_jar.jar' does not contain a manifest.
+2024-09-26 23:53:29,010  |  INFO  |  [Engine.java:675]  |  Finished Jar Analyzer (0 seconds)
+2024-09-26 23:53:29,010  |  DEBUG  |  [Engine.java:825]  |  Initializing Central Analyzer
+2024-09-26 23:53:29,011  |  DEBUG  |  [CentralAnalyzer.java:166]  |  Initializing Central analyzer
+2024-09-26 23:53:29,011  |  DEBUG  |  [CentralAnalyzer.java:167]  |  Central analyzer enabled: true
+2024-09-26 23:53:29,013  |  DEBUG  |  [CentralSearch.java:95]  |  Central Search URL: https://search.maven.org/solrsearch/select
+2024-09-26 23:53:29,014  |  DEBUG  |  [CentralSearch.java:101]  |  Central Search Query: %s?q=1:%s&wt=xml
+2024-09-26 23:53:29,014  |  DEBUG  |  [CentralSearch.java:107]  |  Central Search Full URL: https://search.maven.org/solrsearch/select?q=1:[SHA1]&wt=xml
+2024-09-26 23:53:29,014  |  DEBUG  |  [CentralSearch.java:113]  |  Not using proxy
+2024-09-26 23:53:29,014  |  DEBUG  |  [CompositeCacheManager.java:591]  |  attr = [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1727384009014, LastAccessTime = 1727384008531, getTimeToLiveSeconds() = 86400, createTime = 1727384009014 ]
+2024-09-26 23:53:29,014  |  DEBUG  |  [Engine.java:760]  |  Starting Central Analyzer
+2024-09-26 23:53:29,014  |  DEBUG  |  [Engine.java:811]  |  Parallel processing is not supported: Central Analyzer.
+2024-09-26 23:53:29,017  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Central Analyzer)
+2024-09-26 23:53:29,018  |  DEBUG  |  [CompositeCache.java:509]  |  get: key = 4091f8ab4cab40a5ed60a6f1e422179ecfc8d262, localOnly = false
+2024-09-26 23:53:29,018  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:217]  |  CENTRAL: getting item for key 4091f8ab4cab40a5ed60a6f1e422179ecfc8d262
+2024-09-26 23:53:29,018  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:249]  |  CENTRAL: LRUMemoryCache miss for 4091f8ab4cab40a5ed60a6f1e422179ecfc8d262
+2024-09-26 23:53:29,018  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:538]  |  verifycache[CENTRAL]: mapContains 0 elements, linked list contains 0 elements
+2024-09-26 23:53:29,018  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:540]  |  verifycache: checking linked list by key 
+2024-09-26 23:53:29,018  |  DEBUG  |  [DoubleLinkedList.java:117]  |  returning first node
+2024-09-26 23:53:29,018  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:566]  |  verifycache: checking linked list by value 
+2024-09-26 23:53:29,018  |  DEBUG  |  [DoubleLinkedList.java:117]  |  returning first node
+2024-09-26 23:53:29,018  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:576]  |  verifycache: checking via keysets!
+2024-09-26 23:53:29,018  |  DEBUG  |  [CompositeCache.java:559]  |  Attempting to get from aux [CENTRAL] which is of type: DISK_CACHE
+2024-09-26 23:53:29,018  |  DEBUG  |  [AbstractDiskCache.java:242]  |  get was called, but the disk cache is not alive.
+2024-09-26 23:53:29,019  |  DEBUG  |  [CompositeCache.java:575]  |  Got CacheElement: null
+2024-09-26 23:53:29,019  |  DEBUG  |  [CompositeCache.java:627]  |  CENTRAL - Miss
+2024-09-26 23:53:29,020  |  TRACE  |  [CentralSearch.java:155]  |  Searching Central url https://search.maven.org/solrsearch/select?q=1:4091f8ab4cab40a5ed60a6f1e422179ecfc8d262&wt=xml
+2024-09-26 23:53:29,409  |  DEBUG  |  [CompositeCache.java:258]  |  Updating memory cache 4091f8ab4cab40a5ed60a6f1e422179ecfc8d262
+2024-09-26 23:53:29,410  |  DEBUG  |  [DoubleLinkedList.java:117]  |  returning first node
+2024-09-26 23:53:29,410  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:623]  |  verifycache(key) key match: 4091f8ab4cab40a5ed60a6f1e422179ecfc8d262
+2024-09-26 23:53:29,410  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:155]  |  In memory limit reached, spooling
+2024-09-26 23:53:29,410  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:163]  |  About to spool to disk cache, map size: 1, max objects: 0, maximum items to spool: 1
+2024-09-26 23:53:29,410  |  DEBUG  |  [DoubleLinkedList.java:103]  |  returning last node
+2024-09-26 23:53:29,411  |  DEBUG  |  [CompositeCache.java:447]  |  DiskCache available, but JCS is not configured to use the DiskCache as a swap.
+2024-09-26 23:53:29,411  |  DEBUG  |  [DoubleLinkedList.java:215]  |  removing node
+2024-09-26 23:53:29,411  |  DEBUG  |  [AbstractDoubleLinkedListMemoryCache.java:197]  |  update: After spool map size: 0 linked list size = 0
+2024-09-26 23:53:29,411  |  DEBUG  |  [CompositeCache.java:301]  |  Updating auxiliary caches
+2024-09-26 23:53:29,411  |  DEBUG  |  [CompositeCache.java:318]  |  Auxiliary cache type: DISK_CACHE
+2024-09-26 23:53:29,411  |  DEBUG  |  [CompositeCache.java:375]  |  diskcache in aux list: cattr true
+2024-09-26 23:53:29,412  |  DEBUG  |  [AbstractDiskCache.java:195]  |  Putting element in purgatory, cacheName: CENTRAL, key: 4091f8ab4cab40a5ed60a6f1e422179ecfc8d262
+2024-09-26 23:53:29,413  |  DEBUG  |  [DoubleLinkedList.java:117]  |  returning first node
+2024-09-26 23:53:29,413  |  DEBUG  |  [CompositeCache.java:384]  |  updated disk cache for 4091f8ab4cab40a5ed60a6f1e422179ecfc8d262
+2024-09-26 23:53:29,413  |  DEBUG  |  [CentralAnalyzer.java:313]  |  Artifact not found in repository: 'test_web_jar.jar
+2024-09-26 23:53:29,413  |  INFO  |  [Engine.java:675]  |  Finished Central Analyzer (0 seconds)
+2024-09-26 23:53:29,413  |  DEBUG  |  [Engine.java:825]  |  Initializing Nexus Analyzer
+2024-09-26 23:53:29,413  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  Nexus Analyzer has been disabled
+2024-09-26 23:53:29,413  |  DEBUG  |  [Engine.java:677]  |  Skipping Nexus Analyzer (not enabled)
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:825]  |  Initializing Artifactory Analyzer
+2024-09-26 23:53:29,414  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  Artifactory Analyzer has been disabled
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:677]  |  Skipping Artifactory Analyzer (not enabled)
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:825]  |  Initializing Nuspec Analyzer
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:677]  |  Skipping Nuspec Analyzer (not enabled)
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:825]  |  Initializing Nugetconf Analyzer
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:677]  |  Skipping Nugetconf Analyzer (not enabled)
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:825]  |  Initializing MSBuild Project Analyzer
+2024-09-26 23:53:29,414  |  DEBUG  |  [Engine.java:677]  |  Skipping MSBuild Project Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Assembly Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  Assembly Analyzer has been disabled
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Assembly Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Python Distribution Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Python Distribution Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Python Package Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Python Package Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing pip Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping pip Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Pipfile Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Pipfile Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Pipfile.lock Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Pipfile.lock Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Poetry Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Poetry Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Autoconf Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Autoconf Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing OpenSSL Source Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping OpenSSL Source Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing CMake Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping CMake Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Node.js Package Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:677]  |  Skipping Node.js Package Analyzer (not enabled)
+2024-09-26 23:53:29,415  |  DEBUG  |  [Engine.java:825]  |  Initializing Golang Mod Analyzer
+2024-09-26 23:53:29,415  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  Golang Mod Analyzer has been disabled
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:677]  |  Skipping Golang Mod Analyzer (not enabled)
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:825]  |  Initializing Golang Dep Analyzer
+2024-09-26 23:53:29,416  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  Golang Dep Analyzer has been disabled
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:677]  |  Skipping Golang Dep Analyzer (not enabled)
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:825]  |  Initializing Ruby Gemspec Analyzer
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:677]  |  Skipping Ruby Gemspec Analyzer (not enabled)
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:825]  |  Initializing Ruby Bundler Analyzer
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:677]  |  Skipping Ruby Bundler Analyzer (not enabled)
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:825]  |  Initializing Composer.lock analyzer
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:677]  |  Skipping Composer.lock analyzer (not enabled)
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:825]  |  Initializing CocoaPods Package Analyzer
+2024-09-26 23:53:29,416  |  DEBUG  |  [Engine.java:677]  |  Skipping CocoaPods Package Analyzer (not enabled)
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:825]  |  Initializing SWIFT Package Manager Analyzer
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:677]  |  Skipping SWIFT Package Manager Analyzer (not enabled)
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:825]  |  Initializing SWIFT Package Resolved Analyzer
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:677]  |  Skipping SWIFT Package Resolved Analyzer (not enabled)
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:825]  |  Initializing Perl cpanfile Analyzer
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:677]  |  Skipping Perl cpanfile Analyzer (not enabled)
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:825]  |  Initializing Pinned Maven install Analyzer
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:677]  |  Skipping Pinned Maven install Analyzer (not enabled)
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:825]  |  Initializing Dart Package Analyzer
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:677]  |  Skipping Dart Package Analyzer (not enabled)
+2024-09-26 23:53:29,417  |  DEBUG  |  [Engine.java:825]  |  Initializing Libman Analyzer
+2024-09-26 23:53:29,418  |  DEBUG  |  [Engine.java:677]  |  Skipping Libman Analyzer (not enabled)
+2024-09-26 23:53:29,418  |  DEBUG  |  [Engine.java:825]  |  Initializing PE Analyzer
+2024-09-26 23:53:29,418  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  PE Analyzer has been disabled
+2024-09-26 23:53:29,418  |  DEBUG  |  [Engine.java:677]  |  Skipping PE Analyzer (not enabled)
+2024-09-26 23:53:29,418  |  DEBUG  |  [Engine.java:825]  |  Initializing Dependency Merging Analyzer
+2024-09-26 23:53:29,418  |  DEBUG  |  [Engine.java:760]  |  Starting Dependency Merging Analyzer
+2024-09-26 23:53:29,418  |  DEBUG  |  [Engine.java:811]  |  Parallel processing is not supported: Dependency Merging Analyzer.
+2024-09-26 23:53:29,420  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Dependency Merging Analyzer)
+2024-09-26 23:53:29,420  |  INFO  |  [Engine.java:675]  |  Finished Dependency Merging Analyzer (0 seconds)
+2024-09-26 23:53:29,421  |  DEBUG  |  [Engine.java:825]  |  Initializing Hint Analyzer
+2024-09-26 23:53:29,617  |  DEBUG  |  [HintAnalyzer.java:333]  |  51 hint rules were loaded.
+2024-09-26 23:53:29,618  |  DEBUG  |  [HintAnalyzer.java:334]  |  6 duplicating hint rules were loaded.
+2024-09-26 23:53:29,618  |  DEBUG  |  [Engine.java:760]  |  Starting Hint Analyzer
+2024-09-26 23:53:29,619  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: Hint Analyzer.
+2024-09-26 23:53:29,629  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Hint Analyzer)
+2024-09-26 23:53:29,632  |  INFO  |  [Engine.java:675]  |  Finished Hint Analyzer (0 seconds)
+2024-09-26 23:53:29,632  |  DEBUG  |  [Engine.java:825]  |  Initializing Version Filter Analyzer
+2024-09-26 23:53:29,632  |  DEBUG  |  [Engine.java:760]  |  Starting Version Filter Analyzer
+2024-09-26 23:53:29,632  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: Version Filter Analyzer.
+2024-09-26 23:53:29,637  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Version Filter Analyzer)
+2024-09-26 23:53:29,639  |  INFO  |  [Engine.java:675]  |  Finished Version Filter Analyzer (0 seconds)
+2024-09-26 23:53:29,640  |  DEBUG  |  [Engine.java:825]  |  Initializing NPM CPE Analyzer
+2024-09-26 23:53:32,124  |  INFO  |  [NpmCPEAnalyzer.java:106]  |  Created CPE Index (2 seconds)
+2024-09-26 23:53:32,127  |  DEBUG  |  [CPEAnalyzer.java:206]  |  Skipping CPE Analysis for npm
+2024-09-26 23:53:32,395  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:32,396  |  DEBUG  |  [Settings.java:1184]  |  Settings.getDataFile() - file: 'C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck'
+2024-09-26 23:53:32,434  |  DEBUG  |  [WriteLock.java:168]  |  Lock file created (Thread-31) 06bac7f074a2903e070b2c8c44014313 @ 2024-09-26 23:53:32.434
+2024-09-26 23:53:32,437  |  DEBUG  |  [AbstractSuppressionAnalyzer.java:285]  |  copying hosted suppressions file C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\DependencyCheck\publishedSuppressions.xml to C:\Users\KNEDYA~1\AppData\Local\Temp\dc-basesuppressions17994175493323711379.xml
+2024-09-26 23:53:32,441  |  DEBUG  |  [WriteLock.java:240]  |  Lock released (Thread-31) 06bac7f074a2903e070b2c8c44014313 @ 2024-09-26 23:53:32.441
+2024-09-26 23:53:32,478  |  DEBUG  |  [AbstractSuppressionAnalyzer.java:160]  |  0 suppression rules were loaded.
+2024-09-26 23:53:32,478  |  DEBUG  |  [Engine.java:760]  |  Starting NPM CPE Analyzer
+2024-09-26 23:53:32,478  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: NPM CPE Analyzer.
+2024-09-26 23:53:32,495  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (NPM CPE Analyzer)
+2024-09-26 23:53:32,495  |  INFO  |  [Engine.java:675]  |  Finished NPM CPE Analyzer (2 seconds)
+2024-09-26 23:53:32,495  |  DEBUG  |  [Engine.java:825]  |  Initializing CPE Analyzer
+2024-09-26 23:53:36,753  |  INFO  |  [CPEAnalyzer.java:231]  |  Created CPE Index (4 seconds)
+2024-09-26 23:53:36,753  |  DEBUG  |  [CPEAnalyzer.java:206]  |  Skipping CPE Analysis for npm
+2024-09-26 23:53:36,753  |  DEBUG  |  [Engine.java:760]  |  Starting CPE Analyzer
+2024-09-26 23:53:36,753  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: CPE Analyzer.
+2024-09-26 23:53:36,765  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (CPE Analyzer)
+2024-09-26 23:53:36,768  |  TRACE  |  [CPEAnalyzer.java:281]  |  vendor search: {}
+2024-09-26 23:53:36,772  |  TRACE  |  [CPEAnalyzer.java:284]  |  product search: {}
+2024-09-26 23:53:36,774  |  TRACE  |  [CPEAnalyzer.java:281]  |  vendor search: {test_web_jar=1}
+2024-09-26 23:53:36,777  |  TRACE  |  [CPEAnalyzer.java:284]  |  product search: {test_web_jar=1}
+2024-09-26 23:53:36,779  |  DEBUG  |  [AbstractMemoryIndex.java:273]  |  product:(test_web_jar) AND vendor:(test_web_jar)
+2024-09-26 23:53:36,983  |  DEBUG  |  [CveDB.java:428]  |  Entering finalize
+2024-09-26 23:53:37,118  |  TRACE  |  [CPEAnalyzer.java:302]  |  identified vendor/product: web_project/web
+2024-09-26 23:53:37,133  |  TRACE  |  [CPEAnalyzer.java:281]  |  vendor search: {test_web_jar=1}
+2024-09-26 23:53:37,134  |  TRACE  |  [CPEAnalyzer.java:284]  |  product search: {test_web_jar=1}
+2024-09-26 23:53:37,134  |  DEBUG  |  [AbstractMemoryIndex.java:273]  |  product:(test_web_jar) AND vendor:(test_web_jar)
+2024-09-26 23:53:37,157  |  TRACE  |  [CPEAnalyzer.java:281]  |  vendor search: {test_web_jar=1, xsssample=1}
+2024-09-26 23:53:37,158  |  TRACE  |  [CPEAnalyzer.java:284]  |  product search: {test_web_jar=1, xssjar=1}
+2024-09-26 23:53:37,158  |  DEBUG  |  [AbstractMemoryIndex.java:273]  |  product:(test_web_jar xssjar^2) AND vendor:(test_web_jar xsssample^2)
+2024-09-26 23:53:37,206  |  INFO  |  [Engine.java:675]  |  Finished CPE Analyzer (4 seconds)
+2024-09-26 23:53:37,206  |  DEBUG  |  [Engine.java:825]  |  Initializing False Positive Analyzer
+2024-09-26 23:53:37,206  |  DEBUG  |  [Engine.java:760]  |  Starting False Positive Analyzer
+2024-09-26 23:53:37,206  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: False Positive Analyzer.
+2024-09-26 23:53:37,210  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (False Positive Analyzer)
+2024-09-26 23:53:37,228  |  INFO  |  [Engine.java:675]  |  Finished False Positive Analyzer (0 seconds)
+2024-09-26 23:53:37,229  |  DEBUG  |  [Engine.java:825]  |  Initializing NVD CVE Analyzer
+2024-09-26 23:53:37,229  |  DEBUG  |  [Engine.java:760]  |  Starting NVD CVE Analyzer
+2024-09-26 23:53:37,229  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: NVD CVE Analyzer.
+2024-09-26 23:53:37,298  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (NVD CVE Analyzer)
+2024-09-26 23:53:37,304  |  INFO  |  [Engine.java:675]  |  Finished NVD CVE Analyzer (0 seconds)
+2024-09-26 23:53:37,305  |  DEBUG  |  [Engine.java:825]  |  Initializing Node Audit Analyzer
+2024-09-26 23:53:37,305  |  DEBUG  |  [Engine.java:677]  |  Skipping Node Audit Analyzer (not enabled)
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:825]  |  Initializing Yarn Audit Analyzer
+2024-09-26 23:53:37,306  |  DEBUG  |  [AbstractAnalyzer.java:104]  |  Yarn Audit Analyzer has been disabled
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:677]  |  Skipping Yarn Audit Analyzer (not enabled)
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:825]  |  Initializing Pnpm Audit Analyzer
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:677]  |  Skipping Pnpm Audit Analyzer (not enabled)
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:825]  |  Initializing RetireJS Analyzer
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:677]  |  Skipping RetireJS Analyzer (not enabled)
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:825]  |  Initializing Sonatype OSS Index Analyzer
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:760]  |  Starting Sonatype OSS Index Analyzer
+2024-09-26 23:53:37,306  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: Sonatype OSS Index Analyzer.
+2024-09-26 23:53:37,310  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Sonatype OSS Index Analyzer)
+2024-09-26 23:53:37,310  |  DEBUG  |  [OssIndexAnalyzer.java:218]  |  Requesting component-reports for 1 dependencies
+2024-09-26 23:53:37,314  |  WARN  |  [OssIndexAnalyzer.java:233]  |  Unable to determine Package-URL identifiers for 1 dependencies
+2024-09-26 23:53:37,314  |  DEBUG  |  [OssIndexAnalyzer.java:248]  |  Enrich dependency: Dependency{ fileName='test_web_jar.jar', actualFilePath='C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar', filePath='C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar', packagePath='C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar'}
+2024-09-26 23:53:37,315  |  INFO  |  [Engine.java:675]  |  Finished Sonatype OSS Index Analyzer (0 seconds)
+2024-09-26 23:53:37,315  |  DEBUG  |  [Engine.java:825]  |  Initializing Vulnerability Suppression Analyzer
+2024-09-26 23:53:37,317  |  DEBUG  |  [Engine.java:760]  |  Starting Vulnerability Suppression Analyzer
+2024-09-26 23:53:37,317  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: Vulnerability Suppression Analyzer.
+2024-09-26 23:53:37,321  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Vulnerability Suppression Analyzer)
+2024-09-26 23:53:37,321  |  INFO  |  [Engine.java:675]  |  Finished Vulnerability Suppression Analyzer (0 seconds)
+2024-09-26 23:53:37,321  |  DEBUG  |  [Engine.java:825]  |  Initializing Known Exploited Vulnerability Analyzer
+2024-09-26 23:53:37,345  |  DEBUG  |  [Engine.java:760]  |  Starting Known Exploited Vulnerability Analyzer
+2024-09-26 23:53:37,345  |  DEBUG  |  [Engine.java:808]  |  Parallel processing with up to 8 threads: Known Exploited Vulnerability Analyzer.
+2024-09-26 23:53:37,350  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Known Exploited Vulnerability Analyzer)
+2024-09-26 23:53:37,351  |  INFO  |  [Engine.java:675]  |  Finished Known Exploited Vulnerability Analyzer (0 seconds)
+2024-09-26 23:53:37,351  |  DEBUG  |  [Engine.java:825]  |  Initializing Dependency Bundling Analyzer
+2024-09-26 23:53:37,351  |  DEBUG  |  [Engine.java:760]  |  Starting Dependency Bundling Analyzer
+2024-09-26 23:53:37,351  |  DEBUG  |  [Engine.java:811]  |  Parallel processing is not supported: Dependency Bundling Analyzer.
+2024-09-26 23:53:37,354  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Dependency Bundling Analyzer)
+2024-09-26 23:53:37,354  |  INFO  |  [Engine.java:675]  |  Finished Dependency Bundling Analyzer (0 seconds)
+2024-09-26 23:53:37,354  |  DEBUG  |  [Engine.java:825]  |  Initializing Unused Suppression Rule Analyzer
+2024-09-26 23:53:37,355  |  DEBUG  |  [Engine.java:760]  |  Starting Unused Suppression Rule Analyzer
+2024-09-26 23:53:37,355  |  DEBUG  |  [Engine.java:811]  |  Parallel processing is not supported: Unused Suppression Rule Analyzer.
+2024-09-26 23:53:37,357  |  DEBUG  |  [AnalysisTask.java:86]  |  Begin Analysis of 'C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar' (Unused Suppression Rule Analyzer)
+2024-09-26 23:53:37,359  |  INFO  |  [Engine.java:675]  |  Finished Unused Suppression Rule Analyzer (0 seconds)
+2024-09-26 23:53:37,361  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Archive Analyzer'
+2024-09-26 23:53:37,362  |  DEBUG  |  [ArchiveAnalyzer.java:229]  |  Attempting to delete temporary files from `C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a\check4556372660758908583tmp`
+2024-09-26 23:53:37,368  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Ruby Bundle Audit Analyzer'
+2024-09-26 23:53:37,368  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Elixir Mix Audit Analyzer'
+2024-09-26 23:53:37,368  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'File Name Analyzer'
+2024-09-26 23:53:37,369  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Jar Analyzer'
+2024-09-26 23:53:37,369  |  DEBUG  |  [JarAnalyzer.java:1136]  |  Attempting to delete temporary files from `C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a\check14869325742666205863tmp`
+2024-09-26 23:53:37,370  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Central Analyzer'
+2024-09-26 23:53:37,370  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Nexus Analyzer'
+2024-09-26 23:53:37,370  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Artifactory Analyzer'
+2024-09-26 23:53:37,370  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Nuspec Analyzer'
+2024-09-26 23:53:37,370  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Nugetconf Analyzer'
+2024-09-26 23:53:37,370  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'MSBuild Project Analyzer'
+2024-09-26 23:53:37,370  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Assembly Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Python Distribution Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Python Package Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'pip Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Pipfile Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Pipfile.lock Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Poetry Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Autoconf Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'OpenSSL Source Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'CMake Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Node.js Package Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Golang Mod Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Golang Dep Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Ruby Gemspec Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Ruby Bundler Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Composer.lock analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'CocoaPods Package Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'SWIFT Package Manager Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'SWIFT Package Resolved Analyzer'
+2024-09-26 23:53:37,371  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Perl cpanfile Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Pinned Maven install Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Dart Package Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Libman Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'PE Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Dependency Merging Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Hint Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Version Filter Analyzer'
+2024-09-26 23:53:37,372  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'NPM CPE Analyzer'
+2024-09-26 23:53:37,377  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'CPE Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'False Positive Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'NVD CVE Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Node Audit Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Yarn Audit Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Pnpm Audit Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'RetireJS Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Sonatype OSS Index Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Vulnerability Suppression Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Known Exploited Vulnerability Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Dependency Bundling Analyzer'
+2024-09-26 23:53:37,379  |  DEBUG  |  [Engine.java:856]  |  Closing Analyzer 'Unused Suppression Rule Analyzer'
+2024-09-26 23:53:37,380  |  DEBUG  |  [Engine.java:685]  |  
+----------------------------------------------------
+END ANALYSIS
+----------------------------------------------------
+2024-09-26 23:53:37,380  |  INFO  |  [Engine.java:687]  |  Analysis Complete (8 seconds)
+2024-09-26 23:53:37,380  |  DEBUG  |  [CveDB.java:311]  |  Closing database
+2024-09-26 23:53:37,380  |  DEBUG  |  [CveDB.java:313]  |  Cache cleared
+2024-09-26 23:53:37,388  |  DEBUG  |  [CveDB.java:316]  |  Connection closed
+2024-09-26 23:53:37,389  |  DEBUG  |  [CveDB.java:322]  |  Resources released
+2024-09-26 23:53:37,389  |  DEBUG  |  [DriverLoader.java:57]  |  Begin deregister driver
+2024-09-26 23:53:37,389  |  DEBUG  |  [DriverLoader.java:59]  |  End deregister driver
+2024-09-26 23:53:37,390  |  INFO  |  [ElementEventQueue.java:86]  |  Element event queue destroyed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@4dfbca0c
+2024-09-26 23:53:37,390  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [NODEAUDIT] fromRemote [false]
+2024-09-26 23:53:37,390  |  INFO  |  [CompositeCache.java:1349]  |  In DISPOSE, [NODEAUDIT] SKIPPING auxiliary [NODEAUDIT] fromRemote [false]
+2024-09-26 23:53:37,390  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [NODEAUDIT] disposing of memory cache.
+2024-09-26 23:53:37,390  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-09-26 23:53:37,390  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [CENTRAL] fromRemote [false]
+2024-09-26 23:53:37,391  |  INFO  |  [CompositeCache.java:1349]  |  In DISPOSE, [CENTRAL] SKIPPING auxiliary [CENTRAL] fromRemote [false]
+2024-09-26 23:53:37,391  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [CENTRAL] disposing of memory cache.
+2024-09-26 23:53:37,392  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-09-26 23:53:37,392  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [POM] fromRemote [false]
+2024-09-26 23:53:37,392  |  INFO  |  [CompositeCache.java:1349]  |  In DISPOSE, [POM] SKIPPING auxiliary [POM] fromRemote [false]
+2024-09-26 23:53:37,392  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [POM] disposing of memory cache.
+2024-09-26 23:53:37,392  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-09-26 23:53:37,392  |  INFO  |  [DependencyCheckerWrapper.kt:217]  |  Combining results...
+2024-09-26 23:53:37,396  |  DEBUG  |  [Settings.java:895]  |  Deleting ALL temporary files from `C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\DependencyCheck\dctemp78b0974f-5d4b-416f-b975-4049d51d4b1a`
+2024-09-26 23:53:37,463  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-09-26 23:53:37,471  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-09-26 23:53:37,487  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-09-26 23:53:37,502  |  INFO  |  [Messenger.kt:74]  |  Sent message ScanDone
+2024-09-26 23:53:37,647  |  INFO  |  [Messenger.kt:54]  |  Received message Finalize
+2024-09-26 23:53:37,649  |  INFO  |  [Messenger.kt:74]  |  Sent message FinalizeDone
+2024-09-26 23:53:37,650  |  INFO  |  [Executor.kt:214]  |  Stopping the working threads...
+2024-09-26 23:53:37,650  |  INFO  |  [FeedsUpdatingProgressTracker.kt:154]  |  process tracker was canceled

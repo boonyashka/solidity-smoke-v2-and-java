@@ -1,0 +1,13 @@
+﻿#Thread(1) 2024-09-26 23:51:55.514: INFO: Platform: x64, framework: .NETCoreApp,Version=v6.0
+#Thread(1) 2024-09-26 23:51:55.526: INFO: Core version 1.5.0.0, started with command line: "C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\jvm\JSA.dll" --connection-type Pipe -p pipe-f52312dc-0c61-44ef-b5f2-4dc722113f66-java --logs-dir C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\Java --language jvm --java-version 17 --jvm-args
+#Thread(6) 2024-09-26 23:51:56.369: INFO: Selected language provider: JSA.JvmProvider.LanguageProvider v1.1.7.0
+#Thread(23) 2024-09-26 23:51:57.677: INFO: Output from precheck process: INFO:  Decompiling class com/xsssample/xssclass
+#Thread(4) 2024-09-26 23:51:57.784: INFO: Output from precheck process: INFO:  ... done
+#Thread(10) 2024-09-26 23:52:00.445: INFO: Model bytes were obtained. Starting deserializaion
+#Thread(10) 2024-09-26 23:52:00.483: INFO: Additional data was deserialized
+#Thread(10) 2024-09-26 23:52:00.541: INFO: Spoon model was deserialized
+#Thread(29) 2024-09-26 23:53:27.840: INFO: Initializing custom knowledge base.
+#Thread(29) 2024-09-26 23:53:27.845: INFO: Loading custom knowledge base from folder C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\jvm\Scripts.
+#Thread(29) 2024-09-26 23:53:27.891: INFO: Custom knowledge base initialized.
+#Thread(29) 2024-09-26 23:53:27.894: INFO: Total amount functions to scan = 1
+#Thread(31) 2024-09-26 23:53:29.235: INFO: Scan successfully finished!

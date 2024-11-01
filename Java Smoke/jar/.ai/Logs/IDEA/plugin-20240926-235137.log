@@ -1,0 +1,42 @@
+2024-09-26T20:51:37.564Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project jar
+2024-09-26T20:51:37.566Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-09-26T20:51:37.566Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-09-26T20:51:37.566Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 56770
+2024-09-26T20:51:37.567Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-09-26T20:51:37.567Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-09-26T20:51:37.573Z [intellij.services.AiInitializeManager.initializeAI] INFO IntelliJ listens web server on port: 54104
+2024-09-26T20:51:37.590Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-09-26T20:51:37.591Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-09-26T20:51:37.591Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-09-26T20:51:37.591Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\IDEA\plugin-20240926-235137.log
+2024-09-26T20:51:37.595Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-09-26T20:51:37.595Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log])
+2024-09-26T20:51:37.599Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-09-26T20:51:37.609Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-09-26T20:51:37.609Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-09-26T20:51:37.609Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-09-26T20:51:37.610Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\IDEA\plugin-20240926-235137.log
+2024-09-26T20:51:37.613Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-09-26T20:51:37.613Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log])
+2024-09-26T20:51:37.619Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-09-26T20:51:39.295Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-09-26T20:51:39.503Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-09-26T20:51:39.504Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-09-26T20:51:40.814Z [tellij.services.PluginProjectService.createProject] INFO Project created
+2024-09-26T20:51:40.949Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-09-26T20:51:40.959Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-09-26T20:51:41.043Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-09-26T20:51:41.043Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-09-26T20:51:41.046Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\IDEA\plugin-20240926-235137.log
+2024-09-26T20:51:41.048Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-09-26T20:51:41.050Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-09-26T20:51:41.050Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log])
+2024-09-26T20:51:41.051Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-09-26T20:51:41.054Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-09-26T20:51:48.039Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-09-26T20:51:54.241Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-09-26T20:53:38.986Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-09-26T20:53:39.156Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-09-26T20:53:39.172Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-09-26T20:53:39.219Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-09-26T20:53:39.224Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant

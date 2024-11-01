@@ -1,0 +1,22 @@
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.3.0 (03/19/2024 10:57:36)
+OS:                            Microsoft Windows NT 10.0.19045.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102010.25390625 / 100.0234375 MB, 64-bit
+
+Scan path or file:             C:\QA\ai-stuff-master\Java\Smoke\jar
+Thread count:                  4
+Finish date:                   09/26/2024 23:53:30
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   1
+Lines/chars count:             27 / 784
+Patterns count:                872 (218 PM + 654 Taint)
+File time ratio:               01.38%
+Tokens time ratio:             00.26%
+ParseTree time ratio:          04.42%
+Ust time ratio:                07.63%
+Match time ratio:              04.63%
+Pattern time ratio:            81.67%
+
+Time elapsed:                  00:04.674

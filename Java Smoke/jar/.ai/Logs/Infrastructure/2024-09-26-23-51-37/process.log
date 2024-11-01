@@ -1,0 +1,428 @@
+23:51:54.639   INFO  Scanning preparation started.
+23:51:54.683  DEBUG  Previous scan not found. Clear cache of project files dependency relationship.
+23:51:54.783  TRACE  Send message {ScanStarted, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 6123 bytes}.
+23:51:54.783  TRACE  Scan started with project settings:
+{
+  "Id": "58aeeed1-214d-48a5-b8d6-e9db136b609b",
+  "Name": "jar",
+  "CommonSettings": {
+    "Scope": "8ab47938f9c645cf8c8e31ed96dcba74",
+    "ProgrammingLanguages": "Java",
+    "ScanAppType": "Configuration, Java, PmTaint, DependencyCheck",
+    "RootFolder": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar",
+    "JsaScriptingFolder": null,
+    "Site": "http://localhost",
+    "ScanTarget": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar",
+    "ActualScanTarget": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar",
+    "UseSecurityPolicies": false,
+    "UseSastRules": false,
+    "SkipFileFormats": null,
+    "SkipFilesFolders": null,
+    "FileFolderExclusions": "# Ignore IDE specific files\n.idea/\n.vscode/\n.vs/\n\n# Ignore vim files:\n*~\n*.swp\n*.swo\n\n#Ignore git\n.git/\n.gitignore\n.gitmodules\n.gitattributes\n\n## Ignore Logs\n# logs\n# *.log\n\n## Ignore the build directory\n# /dist\n# build/\n# .build/\n# bld/\n# Carthage/Build/\n\n## Ignore temporary directories\n# /tmp\n\n## The file containing environment variables\n# *.env\n\n## Ignore picture files\n# *.gif\n# *.png\n# *.tiff\n# *.bmp\n# *.jpeg\n# *.jpg\n# *.ico\n# *.svg\n# *.pic\n# *.pct\n\n## Ignore language-specific Aspx & CSharp & DotNet\n# [Dd]ebug/\n# [Dd]ebugPublic/\n# [Rr]elease/\n# [Rr]eleases/\n# x64/\n# x86/\n# [Bb]in/\n# [Oo]bj/\n# [Ll]og/\n# [Tt]est[Rr]esult*/\n\n## Ignore language-specific Go\n# vendor/\n# **/*_test.go\n\n## Ignore language-specific JavaScript\n# /out-tsc\n# node_modules/\n# jspm_packages/\n\n## Ignore language-specific ObjectiveC & Swift\n# DerivedData/\n\n## Ignore language-specific Python\n# develop-eggs/\n# downloads/\n# eggs/\n# .eggs/\n# parts/\n# sdist/\n# var/\n# wheels/\n# pip-wheel-metadata/\n# share/python-wheels/\n# *.egg-info/\n# target/\n# .venv/\n# env/\n# .env/\n# venv/\n# ENV/\n# env.bak/\n# venv.bak/",
+    "DisabledTypes": null,
+    "HideSuspectedVulnerabilities": false,
+    "SourceControlSettings": null,
+    "SourceSettings": {
+      "sourceType": 2,
+      "lastDateTimeUpdate": "2024-09-26T20:51:40.5834557Z",
+      "updaterInfo": {
+        "tokenName": null,
+        "email": null,
+        "username": null
+      },
+      "isHidePathAndUser": false,
+      "scanTargetName": "jar",
+      "langPercentDistribution": {
+        "None": 81.8181818181818,
+        "Java": 18.1818181818182,
+        "JsaNet": 0.0,
+        "VB": 0.0,
+        "Php": 0.0,
+        "Html": 0.0,
+        "JavaScript": 0.0,
+        "TypeScript": 0.0,
+        "Python": 0.0,
+        "Go": 0.0,
+        "Kotlin": 0.0,
+        "C": 0.0,
+        "CPlusPlus": 0.0,
+        "ObjectiveC": 0.0,
+        "Swift": 0.0,
+        "PlSql": 0.0,
+        "TSql": 0.0,
+        "MySql": 0.0,
+        "Ruby": 0.0
+      }
+    },
+    "PreprocessingTimeout": 3600,
+    "SendEmailWithReportsAfterScan": false,
+    "RunAutocheckAfterScan": false,
+    "CompressReport": false,
+    "TempDir": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74",
+    "UseIssueTrackerIntegration": false,
+    "SkipGitIgnoreFiles": true,
+    "DisabledPatterns": null,
+    "EnabledPatterns": null,
+    "ReportMailSenderParameters": null,
+    "IsStaticScanEnabled": true,
+    "IsBlackBoxScanEnabled": false
+  },
+  "BlackBoxSettings": {
+    "Level": 2,
+    "SslCheck": false,
+    "ScanScope": 0,
+    "BlackListedAddresses": null,
+    "WhiteListedAddresses": null,
+    "CustomHeaders": null,
+    "Authentication": null,
+    "ProxySettings": null,
+    "ConfigurationPath": null,
+    "BindAddress": null
+  },
+  "DotNetSettings": {
+    "ProjectType": 0,
+    "SolutionFile": null,
+    "WebSiteFolder": null,
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "GoSettings": {
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "JavaScriptSettings": {
+    "DownloadDependencies": true,
+    "UseTaintAnalysis": true,
+    "UseJsaAnalysis": true,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "JavaSettings": {
+    "JavaParameters": null,
+    "JavaVersion": 2,
+    "UserPackagePrefixes": null,
+    "UnpackUserPackages": false,
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "JsaDotNetSettings": {
+    "ProjectType": 0,
+    "SolutionFile": null,
+    "WebSiteFolder": null,
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "PhpSettings": {
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "PmTaintSettings": {
+    "UsePmAnalysis": true,
+    "UseTaintAnalysis": true,
+    "UseCustomPmRules": false,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "PythonSettings": {
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "RubySettings": {
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  }
+}
+23:51:54.811  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 49 bytes}.
+23:51:54.892  DEBUG  Creating VFS nodes for physPath C:\QA\ai-stuff-master\Java\Smoke\jar and vfsPath .
+23:51:54.892  TRACE  Node found C:\QA\ai-stuff-master\Java\Smoke\jar\.idea : ./.idea
+23:51:54.892  TRACE  Node found C:\QA\ai-stuff-master\Java\Smoke\jar\.idea\.gitignore : ./.idea/.gitignore
+23:51:54.892  TRACE  Node found C:\QA\ai-stuff-master\Java\Smoke\jar\.idea\workspace.xml : ./.idea/workspace.xml
+23:51:54.907  TRACE  Node found C:\QA\ai-stuff-master\Java\Smoke\jar\test_web_jar.jar : ./test_web_jar.jar
+23:51:54.907  TRACE  Node found C:\QA\ai-stuff-master\Java\Smoke\jar\xssclass.class : ./xssclass.class
+23:51:54.907  TRACE  Send message {VFS, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 1976 bytes}.
+23:51:54.953   INFO  Computing hash for project tree was started.
+23:51:54.975  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:51:54.989  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:51:55.004  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:51:55.020  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:51:55.036  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:51:55.051  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:51:55.068  DEBUG  Elapsed time of files hash computing: 00:00:00.
+23:51:55.078  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 51 bytes}.
+23:51:55.109  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 51 bytes}.
+23:51:55.141  TRACE  @PmTaintProcessor: Run for execution "C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\pm\AI.Taint.Cli.exe" in job "job-6bceb550-997c-4aad-9895-23cd248a838a". Start parameters: " --connection-type "Pipe" -p "pipe-31240807-8a05-4388-b999-42ab5cc94f8c-pmtaint" --logs-dir "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\PmTaint"".
+23:51:55.141  TRACE  @PmTaintProcessor: Process successful started with pid 171780.
+23:51:55.141  TRACE  @PmTaintProcessor: Waiting for exit of process with pid 171780.
+23:51:55.141  TRACE  @ConfigurationProcessor: Run for execution "C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\config\AI.Config.exe" in job "job-f47dd8d7-557b-4fff-aab9-ba10a692dfa3". Start parameters: " --connection-type "Pipe" -p "pipe-1f3ed229-4d61-4c2d-8190-8bb78f796bf2-configuration"".
+23:51:55.172  TRACE  @ConfigurationProcessor: Process successful started with pid 171204.
+23:51:55.172  TRACE  @ConfigurationProcessor: Waiting for exit of process with pid 171204.
+23:51:55.172  TRACE  @DependencyCheckProcessor: Run for execution "C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\jdk1.11\bin\java.exe" in job "job-a7599678-37da-4bcd-99ed-e7d4354e0524". Start parameters: "-jar "C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\dependencyCheck\dependency-check-ai-core.jar" --connection-type "Pipe" -p "pipe-f9b67660-0328-4fb0-b19c-c1f5843500af-dependencycheck" -log-level "Trace" --logs-dir "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\DependencyCheck"".
+23:51:55.195  TRACE  @DependencyCheckProcessor: Process successful started with pid 164252.
+23:51:55.195  TRACE  @DependencyCheckProcessor: Waiting for exit of process with pid 164252.
+23:51:55.195  TRACE  @JavaProcessor: Run for execution "C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\jvm\JSA.exe" in job "job-d51808a0-b222-48be-8f57-b4e79d90a690". Start parameters: " --connection-type "Pipe" -p "pipe-f52312dc-0c61-44ef-b5f2-4dc722113f66-java" --logs-dir "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\Java" --language jvm --java-version "17" --jvm-args ".
+23:51:55.218  TRACE  @JavaProcessor: Process successful started with pid 170648.
+23:51:55.218  TRACE  @JavaProcessor: Waiting for exit of process with pid 170648.
+23:51:55.493  TRACE  @ConfigurationProcessor: ConfigurationProcessor started and works on the communication channel "pipe-1f3ed229-4d61-4c2d-8190-8bb78f796bf2-configuration".
+23:51:55.680  TRACE  @PmTaintProcessor: PmTaintProcessor started and works on the communication channel "pipe-31240807-8a05-4388-b999-42ab5cc94f8c-pmtaint".
+23:51:55.698  TRACE  @JavaProcessor: JavaProcessor started and works on the communication channel "pipe-f52312dc-0c61-44ef-b5f2-4dc722113f66-java".
+23:51:55.842  TRACE  @DependencyCheckProcessor: DependencyCheckProcessor started and works on the communication channel "pipe-f9b67660-0328-4fb0-b19c-c1f5843500af-dependencycheck".
+23:51:55.874  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 51 bytes}.
+23:51:55.914  TRACE  @JavaProcessor: {"Parameters":{"ScriptRootFolderPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar","AnalysisType":[true,true,false,false],"DownloadDependencies":true,"UnpackUserPackages":false,"SysResourcesConsumption":"High","ChecksToPerform":null,"SiteAddress":"localhost","SiteRootUrl":"http://localhost/","OSType":"Microsoft Windows NT 10.0.19045.0","UseConfiguration":true,"EnvironmentVariables":null,"RootScanFolder":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar","VulnerabilityScheme":false,"CustomRulesFile":null,"ScanType":"Full","LogsDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Logs\\Infrastructure\\2024-09-26-23-51-37\\Java","TempDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\workspace.xml"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./test_web_jar.jar","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xssclass.class","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"}],"AfterCrash":false,"IsIncrementalScan":false}
+23:51:55.914  TRACE  @JavaProcessor: Send message {Initialize, Json, 2764 bytes}. Wait response {InitializeDone}.
+23:51:55.956  TRACE  @PmTaintProcessor: {"Parameters":{"Patterns":[],"PatternLanguages":"Java","TaintLanguages":"None","UsePMCore":true,"UseTaintCore":true,"UseCustomPmRules":false,"AnalysisType":[true,true,false,false],"DownloadDependencies":false,"UnpackUserPackages":false,"SysResourcesConsumption":"High","ChecksToPerform":null,"SiteAddress":"localhost","SiteRootUrl":"http://localhost/","OSType":"Microsoft Windows NT 10.0.19045.0","UseConfiguration":true,"EnvironmentVariables":null,"RootScanFolder":null,"VulnerabilityScheme":false,"CustomRulesFile":null,"ScanType":"Full","LogsDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Logs\\Infrastructure\\2024-09-26-23-51-37\\PmTaint","TempDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\PmTaint","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\workspace.xml"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./test_web_jar.jar","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xssclass.class","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"}],"AfterCrash":false,"IsIncrementalScan":false}
+23:51:56.028  TRACE  @PmTaintProcessor: Send message {Initialize, MessagePack, 2019 bytes}. Wait response {InitializeDone}.
+23:51:56.036  TRACE  @ConfigurationProcessor: {"Parameters":{"ConfFiles":null,"ScanType":"Full","LogsDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Logs\\Infrastructure\\2024-09-26-23-51-37\\Configuration","TempDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Configuration","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\workspace.xml"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./test_web_jar.jar","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xssclass.class","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"}],"AfterCrash":false,"IsIncrementalScan":false}
+23:51:56.036  TRACE  @ConfigurationProcessor: Send message {Initialize, Json, 2313 bytes}. Wait response {InitializeDone}.
+23:51:56.051  TRACE  @DependencyCheckProcessor: {"Parameters":{"IsDependencyCheckAutoUpdateEnabled":true,"DependencyCheckAutoUpdateBaseUrl":"http://localhost:5008/api/DataFeeds/%d.json.gz","DependencyCheckAutoUpdateModifiedUrl":"http://localhost:5008/api/DataFeeds/modified.json.gz","DependencyCheckAutoUpdateRetireJsUrl":"http://localhost:5008/api/DataFeeds/jsrepository.json","DependencyCheckDataBaseFolder":"C:\\Users\\knedyakina\\AppData\\Local\\Application Inspector Analyzer\\DependencyCheck","AdditionalDependenciesToScanDirectories":["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\downloadedJars"],"ScanType":"Full","LogsDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Logs\\Infrastructure\\2024-09-26-23-51-37\\DependencyCheck","TempDirectory":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\DependencyCheck","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\workspace.xml"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./test_web_jar.jar","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xssclass.class","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar"}],"AfterCrash":false,"IsIncrementalScan":false}
+23:51:56.051  TRACE  @DependencyCheckProcessor: Send message {Initialize, Json, 2891 bytes}. Wait response {InitializeDone}.
+23:51:56.051  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core initialization stage: 00:00:00.0293833.
+23:51:56.073  TRACE  @ConfigurationProcessor: Receive message {InitializeDone, Json}. Data: 
+23:51:56.109  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core initialization stage: 00:00:00.0693945.
+23:51:56.109  TRACE  @DependencyCheckProcessor: Receive message {InitializeDone, ByteArray, 0 bytes}.
+23:51:56.228  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 52 bytes}.
+23:51:56.246  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [2,"",100]
+23:51:56.246  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core initialization stage: 00:00:00.3147217.
+23:51:56.246  TRACE  @PmTaintProcessor: Receive message {InitializeDone, ByteArray, 0 bytes}.
+23:51:56.502  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 52 bytes}.
+23:51:56.502  TRACE  @JavaProcessor: Receive message {Progress, MessagePack}. Data: [2,"",100]
+23:51:56.502  DEBUG  @JavaProcessor: Elapsed time of "Java" core initialization stage: 00:00:00.6175617.
+23:51:56.515  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 53 bytes}.
+23:51:56.546  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 49 bytes}.
+23:51:56.571  TRACE  @JavaProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+23:51:56.571  TRACE  @ConfigurationProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+23:51:56.571  TRACE  @DependencyCheckProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+23:51:56.571  TRACE  @JavaProcessor: Receive message {InitializeDone, ByteArray, 0 bytes}.
+23:51:56.571  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core preprocessing stage: 00:00:00.0029310.
+23:51:56.571  TRACE  @ConfigurationProcessor: Receive message {PrecheckDone, Json}. Data: 
+23:51:57.815  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 150 bytes}.
+23:52:00.677  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 63 bytes}.
+23:52:00.689  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":0}
+23:52:00.689  TRACE  @JavaProcessor: Receive message {AddVfsContent, MessagePack}. Data: [1,"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java"]
+23:52:00.722  TRACE  @PmTaintProcessor: Send message {ExpandNode, MessagePack, 209 bytes}.
+23:52:00.722  TRACE  @ConfigurationProcessor: Send message {ExpandNode, Json, 332 bytes}.
+23:52:00.722  TRACE  @DependencyCheckProcessor: Send message {ExpandNode, Json, 332 bytes}.
+23:52:00.722  TRACE  @JavaProcessor: Send message {ExpandNode, Json, 332 bytes}.
+23:52:00.722  TRACE  Send message {NodesAdded, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 427 bytes}.
+23:52:00.738   INFO  @JavaProcessor: Computing hash for decompiled data of file "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java" was started.
+23:52:00.738  DEBUG  Elapsed time of files hash computing: 00:00:00.
+23:52:00.768   WARN  @JavaProcessor: Node "C:\QA\ai-stuff-master\Java\Smoke\jar\.idea" already ignored.
+23:52:00.768   WARN  @JavaProcessor: Node "C:\QA\ai-stuff-master\Java\Smoke\jar" already ignored.
+23:52:00.768  TRACE  Send message {NodesIgnored, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 112 bytes}.
+23:52:00.783  TRACE  @JavaProcessor: Receive message {IgnoredNodes, MessagePack}. Data: [["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\.gitignore","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.idea\\workspace.xml","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java"]]
+23:52:00.783  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 63 bytes}.
+23:52:00.800  TRACE  @JavaProcessor: Receive message {Progress, MessagePack}. Data: [3,"",100]
+23:52:00.800  DEBUG  @JavaProcessor: Elapsed time of "Java" core preprocessing stage: 00:00:04.2319128.
+23:52:00.800  TRACE  @JavaProcessor: Receive message {PrecheckDone, ByteArray, 0 bytes}.
+23:52:00.859  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 150 bytes}.
+23:52:03.897  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:06.937  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:08.514  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 63 bytes}.
+23:52:08.535  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":5}
+23:52:10.289  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:13.381  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:13.637  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:13.657  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":14}
+23:52:15.562  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:15.562  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":18}
+23:52:16.565  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:19.645  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:21.232  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:21.246  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":22}
+23:52:22.739  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:23.413  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:23.430  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":27}
+23:52:25.836  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:25.881  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:25.881  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":31}
+23:52:28.984  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:29.516  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:29.516  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":35}
+23:52:32.031  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:32.570  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:32.581  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":40}
+23:52:33.005  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:33.015  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":44}
+23:52:34.010  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:34.020  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":48}
+23:52:35.212  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:38.037  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:38.037  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":53}
+23:52:38.250  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:39.452  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:39.452  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":57}
+23:52:40.605  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:40.614  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":61}
+23:52:41.542  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:43.235  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:43.250  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":66}
+23:52:44.611  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:47.649  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:48.853  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:48.860  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":70}
+23:52:48.956  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:48.968  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":74}
+23:52:49.062  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:49.077  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":79}
+23:52:50.359  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:50.359  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":83}
+23:52:50.702  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:51.338  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:51.353  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":87}
+23:52:53.748  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:54.421  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 64 bytes}.
+23:52:54.421  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":92}
+23:52:56.048  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 65 bytes}.
+23:52:56.063  TRACE  @DependencyCheckProcessor: Receive message {Progress, Json}. Data: {"Type":"Progress","Stage":"Precheck","SubStage":"Feeds processing","Value":100}
+23:52:56.767  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:52:59.811  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:02.837  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:05.879  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:08.906  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:11.936  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:14.977  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:18.015  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:21.061  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:24.092  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:27.110  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:27.489  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core preprocessing stage: 00:01:30.9170518.
+23:53:27.530  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 51 bytes}.
+23:53:27.556  DEBUG  Previous Scan ID: '(null)'
+23:53:27.577  TRACE  @PmTaintProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+23:53:27.577  TRACE  @DependencyCheckProcessor: Receive message {PrecheckDone, ByteArray, 0 bytes}.
+23:53:27.595  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 65 bytes}.
+23:53:27.595  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [3,"",100]
+23:53:27.595  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core preprocessing stage: 00:00:00.0212894.
+23:53:27.643  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 51 bytes}.
+23:53:27.732  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 45 bytes}.
+23:53:27.732  TRACE  @JavaProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+23:53:27.732  TRACE  @PmTaintProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+23:53:27.748  TRACE  @ConfigurationProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+23:53:27.748  TRACE  @DependencyCheckProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+23:53:27.748  TRACE  @PmTaintProcessor: Receive message {PrecheckDone, ByteArray, 0 bytes}.
+23:53:27.748  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 78 bytes}.
+23:53:27.748  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 80 bytes}.
+23:53:27.775  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar", "Status": 2}
+23:53:27.775  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 75 bytes}.
+23:53:27.789  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 78 bytes}.
+23:53:27.789  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar"}
+23:53:27.789  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 78 bytes}.
+23:53:27.804  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar", "Status": 1}
+23:53:27.804  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 76 bytes}.
+23:53:27.820  TRACE  @JavaProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar",2]
+23:53:27.820  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 76 bytes}.
+23:53:27.835  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"}
+23:53:27.835  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 92 bytes}.
+23:53:27.851  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class", "Status": 2}
+23:53:27.851  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 73 bytes}.
+23:53:27.866  TRACE  @JavaProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class",2]
+23:53:27.882  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java"}
+23:53:27.898  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class", "Status": 1}
+23:53:27.898  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar", "Status": 2}
+23:53:27.898  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar", "Status": 1}
+23:53:27.898  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 90 bytes}.
+23:53:27.913  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java", "Status": 2}
+23:53:27.913  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 87 bytes}.
+23:53:27.928  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java", "Status": 1}
+23:53:27.928  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core scan stage: 00:00:00.1814381.
+23:53:27.928  TRACE  @ConfigurationProcessor: Receive message {ScanDone, Json}. Data: 
+23:53:29.109   INFO  @JavaProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./xssclass.class/xssclass.java"
+  "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Temp\8ab47938f9c645cf8c8e31ed96dcba74\Java\tempDecompileOutput\xssclass.java"
+
+23:53:29.133  TRACE  Send message {NodeIssueLinked, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 164 bytes}.
+23:53:29.194  TRACE  Send message {IssueDetected, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 2639 bytes}.
+23:53:29.211  TRACE  @JavaProcessor: Receive message {IssueDetected, MessagePack}. Data: {"IssueType":1,"Type":"Cross-site Scripting","GroupId":"c:\\qa\\ai-stuff-master\\java\\smoke\\jar\\.ai\\temp\\8ab47938f9c645cf8c8e31ed96dcba74\\java\\tempdecompileoutput\\xssclass.java:20:10:20:27","ApprovalState":0,"IsSuspected":false,"IsSuppressed":false,"RvpPvo":null,"VulnerableExpression":["var3.print(var4);","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",20,20,10,27],"BestPlaceToFix":null,"VulnerableCode":null,"EntryPoint":["public void doGet(HttpServletRequest var1, HttpServletResponse var2) throws IOException, ServletException ","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",15,15,4,110],"IsSecondOrder":false,"Function":null,"Exploit":["HTTP","GET /xss?name=%3Cscript%3Ealert(1)%3C%2Fscript%3E HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n",null,[["name",true,"<script>alert(1)</script>","<script>alert(1)</script>","REQUEST_ARGS","[%3C%3E()%2F]"]]],"AutocheckExploit":null,"PrimordialExploit":null,"AdditionalConditions":"!(\"\".equals((javax.servlet.http.HttpServletRequest var1).getParameter(\"name\")))","TaintDataEntries":[["var1.getParameter(\"name\")","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",18,18,21,46]],"StackTrace":[],"DataTrace":[["HttpServletRequest var1","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",15,15,22,45],["var1","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",18,18,21,25],["var1.getParameter(\"name\")","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",18,18,21,46],["String var4 = var1.getParameter(\"name\");","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",18,18,7,47],["var4","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",20,20,21,25],["var3.print(var4);","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",20,20,10,27]],"VisualizationInfo":[],"ScanMode":0,"AfXml":null}
+23:53:29.211  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 75 bytes}.
+23:53:29.226  TRACE  @JavaProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar",1]
+23:53:29.226  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 73 bytes}.
+23:53:29.242  TRACE  @JavaProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class",1]
+23:53:29.242  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 45 bytes}.
+23:53:29.257  TRACE  @JavaProcessor: Receive message {Progress, MessagePack}. Data: [4,"",100]
+23:53:29.257  DEBUG  @JavaProcessor: Elapsed time of "Java" core scan stage: 00:00:01.5147307.
+23:53:29.257  TRACE  @JavaProcessor: Receive message {ScanDone, ByteArray, 0 bytes}.
+23:53:29.513  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 45 bytes}.
+23:53:29.523  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [4,"",1]
+23:53:29.559  TRACE  Send message {NodesIgnored, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 75 bytes}.
+23:53:29.570  TRACE  @PmTaintProcessor: Receive message {IgnoredNodes, MessagePack}. Data: [["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar","C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"]]
+23:53:29.596  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 91 bytes}.
+23:53:29.596  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",2]
+23:53:30.075  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 45 bytes}.
+23:53:30.081  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [4,"",100]
+23:53:30.081  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 88 bytes}.
+23:53:30.097  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",1]
+23:53:30.154  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core scan stage: 00:00:02.4065942.
+23:53:30.154  TRACE  @PmTaintProcessor: Receive message {ScanDone, ByteArray, 0 bytes}.
+23:53:30.173  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 231 bytes}.
+23:53:33.249  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:36.428  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 129 bytes}.
+23:53:37.463  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 77 bytes}.
+23:53:37.470  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\test_web_jar.jar"}
+23:53:37.470  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 75 bytes}.
+23:53:37.486  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\xssclass.class"}
+23:53:37.486  TRACE  Send message {NodeProgress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 89 bytes}.
+23:53:37.502  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java"}
+23:53:37.502  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core scan stage: 00:00:09.7540068.
+23:53:37.563  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 47 bytes}.
+23:53:37.629  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 49 bytes}.
+23:53:37.641  TRACE  @JavaProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+23:53:37.641  TRACE  @PmTaintProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+23:53:37.641  TRACE  @ConfigurationProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+23:53:37.641  TRACE  @DependencyCheckProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+23:53:37.641  TRACE  @DependencyCheckProcessor: Receive message {ScanDone, ByteArray, 0 bytes}.
+23:53:37.641  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:53:37.641  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core finalization stage: 00:00:00.0067838
+23:53:37.641  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core finalization stage: 00:00:00.0074641
+23:53:37.655  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 50 bytes}.
+23:53:37.655  TRACE  @DependencyCheckProcessor: Receive message {FinalizeDone, ByteArray, 0 bytes}.
+23:53:37.655  TRACE  @ConfigurationProcessor: Receive message {FinalizeDone, Json}. Data: 
+23:53:37.670  TRACE  @JavaProcessor: Receive message {Progress, MessagePack}. Data: [5,"",100]
+23:53:37.670  DEBUG  @JavaProcessor: Elapsed time of "Java" core finalization stage: 00:00:00.0321378
+23:53:37.670  TRACE  @JavaProcessor: Receive message {FinalizeDone, ByteArray, 0 bytes}.
+23:53:37.687  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [5,"",100]
+23:53:37.687  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core finalization stage: 00:00:00.0440977
+23:53:37.687  ERROR  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+23:53:37.702  TRACE  @ConfigurationProcessor: "Configuration" core process was stopped. Start parameters: " --connection-type "Pipe" -p "pipe-1f3ed229-4d61-4c2d-8190-8bb78f796bf2-configuration"".
+23:53:37.702  TRACE  @ConfigurationProcessor: The process tree of job "job-f47dd8d7-557b-4fff-aab9-ba10a692dfa3" successfully terminated. Root process: 171204.
+23:53:37.702  TRACE  @ConfigurationProcessor: ConfigurationProcessor work stopped.
+23:53:37.717  TRACE  @ConfigurationProcessor: Process with pid 171204 successfully terminated.
+23:53:37.732  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 51 bytes}.
+23:53:37.802  TRACE  Send message {Progress, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 45 bytes}.
+23:53:37.921  TRACE  @PmTaintProcessor: Receive message {FinalizeDone, ByteArray, 0 bytes}.
+23:53:37.921  TRACE  Send message {Delta, 4116735f-03c0-4249-b23f-65ef308b21d0, Json, 152 bytes}.
+23:53:37.921   INFO  Terminate scanning...
+23:53:37.938  TRACE  @PmTaintProcessor: Stopping work of PmTaintProcessor...
+23:53:37.938  TRACE  @DependencyCheckProcessor: Stopping work of DependencyCheckProcessor...
+23:53:37.938  TRACE  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+23:53:37.938  TRACE  @JavaProcessor: Stopping work of JavaProcessor...
+23:53:37.938  TRACE  @PmTaintProcessor: The process tree of job "job-6bceb550-997c-4aad-9895-23cd248a838a" successfully terminated. Root process: 171780.
+23:53:37.938  TRACE  @DependencyCheckProcessor: The process tree of job "job-a7599678-37da-4bcd-99ed-e7d4354e0524" successfully terminated. Root process: 164252.
+23:53:37.938  TRACE  @ConfigurationProcessor: ConfigurationProcessor work stopped.
+23:53:37.938  TRACE  @JavaProcessor: The process tree of job "job-d51808a0-b222-48be-8f57-b4e79d90a690" successfully terminated. Root process: 170648.
+23:53:37.938  TRACE  @PmTaintProcessor: PmTaintProcessor work stopped.
+23:53:37.938  TRACE  @PmTaintProcessor: "PmTaint" core process was stopped. Start parameters: " --connection-type "Pipe" -p "pipe-31240807-8a05-4388-b999-42ab5cc94f8c-pmtaint" --logs-dir "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\PmTaint"".
+23:53:37.938  TRACE  @DependencyCheckProcessor: DependencyCheckProcessor work stopped.
+23:53:37.938  TRACE  @DependencyCheckProcessor: "DependencyCheck" core process was stopped. Start parameters: "-jar "C:\Users\knedyakina\AppData\Local\Application Inspector Analyzer\utils\dependencyCheck\dependency-check-ai-core.jar" --connection-type "Pipe" -p "pipe-f9b67660-0328-4fb0-b19c-c1f5843500af-dependencycheck" -log-level "Trace" --logs-dir "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\DependencyCheck"".
+23:53:37.938  TRACE  @JavaProcessor: JavaProcessor work stopped.
+23:53:37.953   INFO  Scanning was stopped.
+23:53:37.953  TRACE  @JavaProcessor: "Java" core process was stopped. Start parameters: " --connection-type "Pipe" -p "pipe-f52312dc-0c61-44ef-b5f2-4dc722113f66-java" --logs-dir "C:\QA\ai-stuff-master\Java\Smoke\jar\.ai\Logs\Infrastructure\2024-09-26-23-51-37\Java" --language jvm --java-version "17" --jvm-args ".
+23:53:37.971  TRACE  @JavaProcessor: Process with pid 170648 successfully terminated.
+23:53:37.971  TRACE  @DependencyCheckProcessor: Process with pid 164252 successfully terminated.

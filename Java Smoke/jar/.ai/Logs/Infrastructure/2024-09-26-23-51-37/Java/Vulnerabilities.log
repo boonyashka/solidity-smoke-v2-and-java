@@ -1,0 +1,105 @@
+﻿[
+// 2024-09-26 23:53:28.596
+{
+  "Version": "3.0",
+  "Id": "2915850117",
+  "GroupId": "c:\\qa\\ai-stuff-master\\java\\smoke\\jar\\.ai\\temp\\8ab47938f9c645cf8c8e31ed96dcba74\\java\\tempdecompileoutput\\xssclass.java:20:10:20:27",
+  "ScanMode": "FromEntryPoint",
+  "Class": "Vulnerability",
+  "Type": "Cross-site Scripting",
+  "IsSuspected": false,
+  "IsSecondOrder": false,
+  "IsSuppressed": false,
+  "VulnerableExpression": {
+    "Value": "var3.print(var4);",
+    "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+    "BeginLine": 20,
+    "BeginColumn": 10,
+    "EndLine": 20,
+    "EndColumn": 27
+  },
+  "EntryPoint": {
+    "Value": "public void doGet(HttpServletRequest var1, HttpServletResponse var2) throws IOException, ServletException ",
+    "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+    "BeginLine": 15,
+    "BeginColumn": 4,
+    "EndLine": 15,
+    "EndColumn": 110
+  },
+  "AdditionalConditions": "!(\"\".equals((javax.servlet.http.HttpServletRequest var1).getParameter(\"name\")))",
+  "Exploit": {
+    "Type": "HTTP",
+    "Text": "GET /xss?name=%3Cscript%3Ealert(1)%3C%2Fscript%3E HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n",
+    "Parameters": [
+      {
+        "Name": "name",
+        "Vulnerable": true,
+        "Value": "<script>alert(1)</script>",
+        "Payload": "<script>alert(1)</script>",
+        "Source": "REQUEST_ARGS",
+        "Dependency": "[%3C%3E()%2F]"
+      }
+    ]
+  },
+  "TaintDataEntries": [
+    {
+      "Value": "var1.getParameter(\"name\")",
+      "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+      "BeginLine": 18,
+      "BeginColumn": 21,
+      "EndLine": 18,
+      "EndColumn": 46
+    }
+  ],
+  "DataTrace": [
+    {
+      "Value": "HttpServletRequest var1",
+      "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+      "BeginLine": 15,
+      "BeginColumn": 22,
+      "EndLine": 15,
+      "EndColumn": 45
+    },
+    {
+      "Value": "var1",
+      "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+      "BeginLine": 18,
+      "BeginColumn": 21,
+      "EndLine": 18,
+      "EndColumn": 25
+    },
+    {
+      "Value": "var1.getParameter(\"name\")",
+      "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+      "BeginLine": 18,
+      "BeginColumn": 21,
+      "EndLine": 18,
+      "EndColumn": 46
+    },
+    {
+      "Value": "String var4 = var1.getParameter(\"name\");",
+      "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+      "BeginLine": 18,
+      "BeginColumn": 7,
+      "EndLine": 18,
+      "EndColumn": 47
+    },
+    {
+      "Value": "var4",
+      "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+      "BeginLine": 20,
+      "BeginColumn": 21,
+      "EndLine": 20,
+      "EndColumn": 25
+    },
+    {
+      "Value": "var3.print(var4);",
+      "File": "C:\\QA\\ai-stuff-master\\Java\\Smoke\\jar\\.ai\\Temp\\8ab47938f9c645cf8c8e31ed96dcba74\\Java\\tempDecompileOutput\\xssclass.java",
+      "BeginLine": 20,
+      "BeginColumn": 10,
+      "EndLine": 20,
+      "EndColumn": 27
+    }
+  ],
+  "BestPlaceToFix": null
+}]

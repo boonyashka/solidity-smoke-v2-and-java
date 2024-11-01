@@ -1,0 +1,23 @@
+{
+    "ProjectName": "Smoke",
+    "ProgrammingLanguages": [
+        "Java"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis"
+    ],
+    "SkipGitIgnoreFiles": true,
+    "JavaSettings": {
+        "UnpackUserPackages": false,
+        "Version": "17",
+        "UsePublicAnalysisMethod": true,
+        "DownloadDependencies": true,
+        "CustomParameters": "--log-level debug --java-version 17"
+    },
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "BlackBoxSettings": {
+        "Site": "http://localhost"
+    }
+}
